@@ -1,0 +1,201 @@
+.wrapper {
+    max-width: 500px;
+}
+[data-theme-color=dark] .modal-content.modal-content-login{
+    background: transparent !important;
+    border:0 !important;
+}
+.modal-body.modal-login{
+    padding: 0 !important;
+    background:transparent !important;
+}
+.wrapper .card-login {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #131A24;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0.8rem;
+}
+.card-login .title{
+    color:white;
+}
+.card-login .sub-title{
+    color:#CACACA;
+    font-size:12px;
+}
+.wrapper .card-login a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.wrapper .card-login a:hover {
+    color: #fff;
+}
+
+.wrapper .card-login .input-field {
+    border: 1px solid #4EEF76;
+    border-radius: 5px;
+    color: #eee;
+    padding: 0.3rem;
+}
+
+.wrapper .card-login .input-field input {
+    background-color: inherit;
+}
+
+.wrapper .card-login .input-field input.form-control,
+.wrapper .card-login .input-field input.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #eee;
+}
+
+.wrapper .card-login .input-field button.btn {
+    color: #eee;
+    padding: 0rem;
+    padding-right: 0.5rem;
+}
+
+.wrapper .card-login .input-field button.btn:hover {
+    color: #fff;
+}
+
+.wrapper .card-login .input-field button.btn:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.wrapper .card-login .input-field input::placeholder {
+    color: #7F8388;
+}
+
+.card-login .input-field span{
+    font-size:18px;
+    color:#4EEF76;
+}
+
+
+.wrapper .card-login .btn.btn-primary {
+    border-radius: 20px;
+    background-color: #4EEF76;
+    color: #131A24;
+    border: none;
+    width:100%;
+    height:40px;
+    box-shadow:0px 6px 10px rgba(78,239,118, 0.3), 0px -6px 10px rgb(78 239 118 / 30%);
+}
+
+.wrapper .card-login .btn.btn-primary:hover {
+    background-color: #4EEF76 !important;
+    color: #131A24 !important;
+}
+
+.wrapper .card-login .btn.btn-primary:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.wrapper .card-login .text-light-white {
+    color: #ddd;
+}
+.wrapper .card-login .option {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    user-select: none
+}
+
+.wrapper .card-login .option span.text-light-white:hover {
+    color: #fff;
+
+}
+
+.wrapper .card-login .option input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.wrapper .card-login .option:hover input~.checkmark {
+    background-color: #f1f1f1
+}
+
+.wrapper .card-login .option input:checked~.checkmark {
+    border: none;
+    background-color: #4EEF76;
+    transition: 300ms ease-in-out all
+}
+
+.checkmark:after {
+    content: "\2713";
+    position: absolute;
+    display: none;
+    color: #131A24;
+    font-size: 15px;
+}
+
+.wrapper .card-login .option input:checked~.checkmark:after {
+    display: block
+}
+
+.wrapper .card-login .option .checkmark:after {
+    left: 3px;
+    top: -3px;
+    width: 5px;
+    height: 10px
+}
+
+.wrapper .card-login .line span.connect {
+    position: absolute;
+    top: -12px;
+    left: 33%;
+    color: #000;
+    padding: 0 0.3rem;
+    z-index: 100;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.wrapper .card-login .connections a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+@media(max-width: 370px) {
+    .wrapper .card-login .line:after {
+        left: 27%;
+    }
+}
+
+@media(max-width: 350px) {
+    .wrapper {
+        margin: 10px auto;
+    }
+
+    .wrapper .card-login {
+        margin: 10px;
+    }
+}

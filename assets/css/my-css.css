@@ -1,0 +1,20 @@
+.main-footer .container-fluid {
+    background: #1B222C;
+    min-height:280px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    padding:10px 15px;
+}
+.main-footer .container-fluid p{
+    font-size:15px;
+    font-weight:600;
+}
+.tabs-style2>.panel-head>.nav-tabs>.nav-item>.nav-link{
+    background:#333A44;
+}
+
+.tabs-style2>.panel-head>.nav-tabs>.nav-item>.nav-link.active{
+    background:#4EEF76 !important;
+}

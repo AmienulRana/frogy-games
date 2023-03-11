@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme-color="dark" data-header-color="dark" data-menu-color="dark">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
+	<meta name="Author" content="Spruko Technologies Private Limited">
+	<meta name="Keywords"
+		content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 5 admin template,bootstrap 5 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 5,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 5,template admin bootstrap 5" />
+
+	<!-- Title -->
+	<title> Dashboard </title>
+
+	<!-- Favicon -->
+	<link rel="icon" href="./assets/img/brand/favicon.ico" type="image/x-icon" />
+
+	<!-- Icons css -->
+	<link href="./assets/css/icons.css" rel="stylesheet">
+
+	<!--  Bootstrap css-->
+	<link id="style" href="./assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Style css -->
+	<link href="./assets/css/style.css" rel="stylesheet">
+	<link href="./assets/css/login.css" rel="stylesheet">
+	<link href="./assets/css/my-css.css" rel="stylesheet">
+
+	<!-- Plugins css -->
+	<link href="./assets/css/plugins.css" rel="stylesheet">
+
+</head>
+
+<body class="ltr main-body app sidebar-mini">
+	<div class="progress-top-bar"></div>
+
+	<!-- Back-to-top -->
+	<a href="#top" id="back-to-top" class="back-to-top rounded-circle shadow"><i class="las la-arrow-up"></i></a>
+
+	<!-- Loader -->
+	<div id="global-loader">
+		<img src="./assets/img/loader.svg" class="loader-img" alt="Loader">
+	</div>
+	<!-- /Loader -->
+
+	<!-- Page -->
+	<div class="page">
+
+		<div class="layout-position-binder">
+			<!-- main-header -->
+			<div class="main-header side-header sticky nav nav-item">
+				<div class=" main-container container-fluid">
+					<div class="main-header-left">
+						<div class="responsive-logo">
+							<a href="index.html" class="header-logo font-bold green-text">
+								Froggy
+							</a>
+						</div>
+						<div class=" app-sidebar__toggle" data-bs-toggle="sidebar">
+							<!-- <div class="icon"></div> -->
+							<a class="open-toggle" href="javascript:void(0)"><i
+									class="header-icon fe fe-align-left"></i></a>
+							<a class="close-toggle" href="javascript:void(0)"><i class="header-icon fe fe-x"></i></a>
+						</div>
+						<div class="logo-horizontal">
+							<a href="index.html" class="header-logo">
+								Froggy
+							</a>
+						</div>
+					</div>
+					<div class="main-header-right">
+						<button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
+							data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
+							aria-controls="navbarSupportedContent-4" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon fe fe-more-vertical"></span>
+						</button>
+						<div class="mb-0 navbar navbar-expand-lg navbar-nav-right responsive-navbar navbar-dark p-0">
+							<div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+								<ul class="nav nav-item header-icons navbar-nav-right ms-auto">
+									<li class="nav-item">
+										<a class="nav-link green-text text-decoration" href="#"
+											data-bs-target="#register" data-bs-toggle="modal">
+											Register</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn green-background" data-bs-target="#login" data-bs-toggle="modal"
+											href="javascript:void(0)">Login</a>
+
+									</li>
+									<!-- <li class="nav-item full-screen fullscreen-button">
+										<a class="new nav-link full-screen-link" href="javascript:void(0)"><svg
+												class="ionicon header-icon-svgs" viewBox="0 0 512 512">
+												<title>Full Width</title>
+												<path fill="none" stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" stroke-width="32"
+													d="M432 320v112H320M421.8 421.77L304 304M80 192V80h112M90.2 90.23L208 208M320 80h112v112M421.77 90.2L304 208M192 432H80V320M90.23 421.8L208 304" />
+											</svg></a>
+									</li>
+									<li class="dropdown main-profile-menu nav-item">
+										<a class="new nav-link profile-user rounded-circle shadow d-flex"
+											href="javascript:void(0)" data-bs-toggle="dropdown"><img alt=""
+												src="./assets/img/users/11.jpg"></a>
+										<ul class="dropdown-menu">
+
+											<li><a class="dropdown-item" href="profile.html"><i
+														class="fe fe-user"></i>Akun</a></li>
+											<li><a class="dropdown-item" href="mail-read.html"><i
+														class="fe fe-mail"></i>Deposit</a></li>
+											<li><a class="dropdown-item" href="settings.html"><i
+														class="fe fe-settings"></i>Withdraw</a></li>
+											<li><a class="dropdown-item" href="signup.html"><i
+														class="fe fe-power"></i>Transaksi</a></li>
+											<li><a class="dropdown-item" href="signup.html"><i
+														class="fe fe-power"></i>Keluar</a></li>
+										</ul>
+									</li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /main-header -->
+
+			<!-- main-sidebar -->
+			<div class="sticky">
+				<aside class="app-sidebar">
+					<div class="main-sidebar-header active d-flex justify-content-center align-items-center">
+						<a class="header-logo active font-bold green-text" href="index.html">
+							Froggy
+						</a>
+					</div>
+					<div class="main-sidemenu">
+						<div class="slide-left disabled" id="slide-left"><svg fill="#7b8191" width="24" height="24"
+								viewBox="0 0 24 24">
+								<path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
+							</svg></div>
+						<ul class="side-menu">
+							<li class="slide">
+								<a class="side-menu__item has-link active" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Home</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">$ Froggy</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Staking</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Promotions</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Slots</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Live Games</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Favorit</span></a>
+							</li>
+							<li class="slide">
+								<a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+									<span class="side-menu__label">Earns</span></a>
+							</li>
+
+						</ul>
+						<div class="slide-right" id="slide-right"><svg fill="#7b8191" width="24" height="24"
+								viewBox="0 0 24 24">
+								<path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
+							</svg></div>
+					</div>
+				</aside>
+			</div>
+			<!-- main-sidebar -->
+		</div>
+
+		<!-- main-content -->
+		<div class="main-content app-content">
+
+			<!-- container -->
+			<div class="main-container container-fluid">
+
+				<div style="margin-top: 32px;">
+					<div class="carousel slide" data-bs-ride="carousel" id="carouselExample5">
+						<ol class="carousel-indicators">
+							<li class="active" data-bs-slide-to="0" data-bs-target="#carouselExample5"></li>
+							<li data-bs-slide-to="1" data-bs-target="#carouselExample5"></li>
+							<li data-bs-slide-to="2" data-bs-target="#carouselExample5"></li>
+						</ol>
+						<div class="carousel-inner bg-dark">
+							<div class="carousel-item active">
+								<img alt="img" class="d-block w-100 op-3" src="./assets/img/photos/banner1.png">
+								<div class="carousel-caption d-none d-md-block">
+									<h1>Welcome Back, Enjoy Frogame !</h1>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img alt="img" class="d-block w-100 op-3" src="./assets/img/photos/banner1.png">
+								<div class="carousel-caption d-none d-md-block">
+									<h1>Welcome Back, Enjoy Frogame !</h1>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img alt="img" class="d-block w-100 op-3" src="./assets/img/photos/banner1.png">
+								<div class="carousel-caption d-none d-md-block">
+									<h1>Welcome Back, Enjoy Frogame !</h1>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev custom" href="#carouselExample5" role="button"
+							data-bs-slide="prev">
+							<i class="fe fe-chevron-left" aria-hidden="true"></i>
+						</a>
+						<a class="carousel-control-next custom" href="#carouselExample5" role="button"
+							data-bs-slide="next">
+							<i class="fe fe-chevron-right" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div class="main-header-center ms-4 form-group my-3">
+					<input class="form-control w-100" placeholder="Search Games..." type="search">
+					<!-- <button class="btn br-te-4 br-be-4"><i class="fas fa-search"></i></button> -->
+				</div>
+
+				<div>
+					<div class="text-wrap">
+						<div class="panel tabs-style7 scaleX">
+							<div class="panel-head mb-4">
+								<ul class="nav nav-tabs d-sm-flex d-block justify-content-between">
+									<li class=" nav-item"><a class="nav-link active" data-bs-toggle="tab"
+											href="#scaleXtab1">All Games</a></li>
+									<li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+											href="#scaleXtab2">Popular</a></li>
+									<li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+											href="#scaleXtab3">Slots</a></li>
+									<li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+											href="#scaleXtab1">Live Games</a></li>
+									<li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+											href="#scaleXtab2">Favorites</a></li>
+									<li class="nav-item"><a class="nav-link" data-bs-toggle="tab"
+											href="#scaleXtab3">Recently Played</a></li>
+								</ul>
+							</div>
+							<div class="panel-body">
+								<div class="tab-content">
+									<div class="tab-pane active" id="scaleXtab1">
+										<div class="d-flex justify-content-between flex-wrap">
+											<div class="col-sm-5 col-md-4 col-lg-2 col-xl-2">
+												<div class="card">
+													<div class="card-body">
+														<img alt="Image" class="img-fluid card-img"
+															src="./assets/img/photos/game1.png">
+													</div>
+													<div class="card-footer">
+														<div class="card-title ellipsis">
+															100 Joker Stax
+														</div>
+														<p class="mb-0">Bgaming</p>
+													</div>
+												</div>
+											</div>
+											<div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+												<div class="card">
+													<div class="card-body">
+														<img alt="Image" class="img-fluid card-img"
+															src="./assets/img/photos/game2.png">
+													</div>
+													<div class="card-footer">
+														<div class="card-title ellipsis">
+															Gates Of Olympus
+														</div>
+														<p class="mb-0">Bgaming</p>
+													</div>
+												</div>
+											</div>
+											<div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+												<div class="card">
+													<div class="card-body">
+														<img alt="Image" class="img-fluid card-img"
+															src="./assets/img/photos/game3.png">
+													</div>
+													<div class="card-footer">
+														<div class="card-title ellipsis">
+															The Dog House Megaways
+														</div>
+														<p class="mb-0">Bgaming</p>
+													</div>
+												</div>
+											</div>
+											<div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+												<div class="card">
+													<div class="card-body">
+														<img alt="Image" class="img-fluid card-img"
+															src="./assets/img/photos/game3.png">
+													</div>
+													<div class="card-footer">
+														<div class="card-title ellipsis">
+															The Dog House Megaways
+														</div>
+														<p class="mb-0">Bgaming</p>
+													</div>
+												</div>
+											</div>
+											<div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+												<div class="card">
+													<div class="card-body">
+														<img alt="Image" class="img-fluid card-img"
+															src="./assets/img/photos/game4.png">
+													</div>
+													<div class="card-footer">
+														<div class="card-title ellipsis">
+															Starlight Princess
+														</div>
+														<p class="mb-0">Bgaming</p>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="tab-pane" id="scaleXtab2">
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+										praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
+										excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
+										officia deserunt mollitia animi, id est laborum et dolorum fuga.
+									</div>
+									<div class="tab-pane" id="scaleXtab3">
+										Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+										voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
+										repellat.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Game Providers -->
+				<div>
+					<h5 class="mb-3">Game Providers</h5>
+					<div class="text-wrap provider-tab">
+						<div class="panel tabs-style2">
+							<div class="panel-head">
+								<ul class="nav nav-tabs d-sm-flex d-block justify-content-evenly">
+									<li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+											<img src="./assets/img/photos/provider1.png" width="80" height="26">
+										</a></li>
+									<li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+											<img src="./assets/img/photos/provider2.png" width="80" height="26">
+										</a></li>
+									<li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+											<img src="./assets/img/photos/provider3.png" width="80" height="26">
+										</a></li>
+									<li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+											<img src="./assets/img/photos/provider4.png" width="80" height="26">
+										</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="modal fade" id="login" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-content-login">
+						<div class="modal-body modal-login">
+							<div class="wrapper">
+								<div class="card-login">
+									<form action="#" class="d-flex flex-column">
+										<div class="text-center text-white">
+											<h4 class="title">Hello, Frogramers !</h4>
+											<p class="sub-title">Please enter your account to log in and start to having
+												fun with us</p>
+										</div>
+										<div class="d-flex align-items-center input-field my-3 mb-4">
+											<span class="far fa-user p-2"></span>
+											<input type="text" placeholder="Username or Email" required
+												class="form-control">
+										</div>
+										<div class="d-flex align-items-center input-field mb-2">
+											<span class="fas fa-lock p-2"></span>
+											<input type="password" placeholder="Password" required class="form-control"
+												id="pwd">
+											<button class="btn" onclick="showPassword()">
+												<span class="fas fa-eye-slash"></span>
+											</button>
+										</div>
+										<div class="d-sm-flex align-items-sm-center justify-content-end">
+											<div class="mt-sm-0"><a href="#">Forgot password?</a></div>
+										</div>
+										<div class="my-3">
+											<input type="submit" value="Login" class="btn btn-primary">
+										</div>
+										<div class="mb-3 text-center">
+											<span class="text-light-white">Don't have an account?</span>
+											<a href="#" class="green-text text-decoration" data-bs-target="#register"
+												data-bs-toggle="modal">Sign Up</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="register" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-content-login">
+						<div class="modal-body modal-login">
+							<div class="wrapper">
+								<div class="card-login">
+									<form action="#" class="d-flex flex-column">
+										<div class="text-center text-white">
+											<h4 class="title">Let’s Create You Account</h4>
+											<p class="sub-title">Let’s Create You Account</p>
+										</div>
+										<div class="d-flex align-items-center input-field my-3 mb-4">
+											<span class="far fa-user p-2"></span>
+											<input type="text" placeholder="Username or Email" required
+												class="form-control">
+										</div>
+										<div class="d-flex align-items-center input-field mb-4">
+											<span class="fas fa-lock p-2"></span>
+											<input type="password" placeholder="Password" required class="form-control"
+												id="pwd">
+											<button class="btn" onclick="showPassword()">
+												<span class="fas fa-eye-slash"></span>
+											</button>
+										</div>
+										<div class="d-flex align-items-center input-field mb-2">
+											<span class="fas fa-lock p-2"></span>
+											<input type="password" placeholder="Repeat your password" required
+												class="form-control" id="pwd">
+											<button class="btn" onclick="showPassword()">
+												<span class="fas fa-eye-slash"></span>
+											</button>
+										</div>
+										<div class="d-sm-flex align-items-sm-center justify-content-between mt-3">
+											<div class="d-flex align-items-center">
+												<label class="option">
+													<input type="checkbox">
+													<span class="checkmark"></span>
+													<p class="text-light-white">I am 18 years old and understand the
+														<span class="green-text text-decoration">terms and
+															conditions.</span>
+													</p>
+												</label>
+											</div>
+										</div>
+										<div class="my-3">
+											<input type="submit" value="Create My Account" class="btn btn-primary">
+										</div>
+										<div class="mb-3 text-center">
+											<span class="text-light-white">Already have an account?</span>
+											<a href="#" class="green-text text-decoration" data-bs-target="#login"
+												data-bs-toggle="modal">Log in</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Container -->
+
+		</div>
+		<!-- /main-content -->
+
+		<!-- Footer opened -->
+		<div class="main-footer mt-5">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="container-fluid pd-t-0 ht-100p">
+					<p>FrogyGames Engine is owned and operated by Hollycorn N.V., registration number: 144539,
+						registered
+						address: Scharlooweg 39, Willemstad, Curaçao . FrogyGames is authorized and regulated by the
+						Government of Curacao and operates under License No. 10732, registered address: 7 Abraham de
+						Veerstraat, Curaçao.</p>
+
+					<p>JB Engine has passed all compliance and is legally authorized to conduct gaming operations for
+						all
+						games of chance and wagering.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Footer closed -->
+
+	</div>
+	<!-- End Page -->
+
+	<!-- JQuery min js -->
+	<script src="./assets/plugins/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Apexchart js -->
+	<script src="./assets/js/apexcharts.js"></script>
+
+	<!--Internal  Chart.bundle js -->
+	<script src="./assets/plugins/chart.js/Chart.bundle.min.js"></script>
+
+	<!-- Perfect-scrollbar js -->
+	<script src="./assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script src="./assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+	<!-- Sidebar js -->
+	<script src="./assets/plugins/side-menu/sidemenu.js"></script>
+
+	<!-- Sticky js -->
+	<script src="./assets/js/sticky.js"></script>
+
+	<!-- Data tables -->
+	<script src="./assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+	<script src="./assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
+	<script src="./assets/plugins/datatable/dataTables.responsive.min.js"></script>
+	<script src="./assets/plugins/datatable/responsive.bootstrap5.min.js"></script>
+
+	<!-- Internal index js -->
+	<script src="./assets/js/index-6.js"></script>
+
+	<script src="./assets/js/modal.js"></script>
+
+	<!-- custom-switcher js -->
+	<script src="./assets/js/custom-switcher.js"></script>
+
+	<!-- custom js -->
+	<script src="./assets/js/custom.js"></script>
+
+</body>
+
+</html>
