@@ -18769,12 +18769,7 @@ hr {
     stroke: var(--primary01);
 }
 
-.side-menu__icon,
-.header-icon,
-.header-icon-svgs {
-    -webkit-filter: drop-shadow(0px 2px 5px var(--primary-bg-color));
-    filter: drop-shadow(0 2px 5px var(--primary-bg-color));
-}
+
 
 .total-profit-svg {
     -webkit-filter: drop-shadow(0px 2px 5px var(--primary-bg-color));
@@ -20215,7 +20210,7 @@ form[role=search].active input {
         background: transparent;
         height: 5px;
         width: 30px;
-        box-shadow: 0px 0px 10px 2px var(--primary-bg-color), 0px 0px 10px 2px var(--primary-bg-color);
+        box-shadow: 0px 0px 10px 2px #4EEF76, 0px 0px 10px 2px #4EEF76;
         top: -10px;
         inset-inline-start: 42%;
         z-index: 9;
@@ -21864,7 +21859,7 @@ form[role=search].active input {
     height: 25px;
     width: 5px;
     inset-inline-start: 10px;
-    box-shadow: 0px 0px 10px 2px var(--primary-bg-color), 0px 0px 10px 2px var(--primary-bg-color);
+    box-shadow: 0px 0px 10px 2px #4EEF76, 0px 0px 10px 2px #4EEF76;
     z-index: 9;
     inset-inline-start: -15px;
 }
@@ -21913,10 +21908,6 @@ form[role=search].active input {
 
 }
 
-.side-menu .slide .side-menu__item.active .side-menu__icon {
-fill: #4EEF76 !important;
-
-}
 
 .side-menu .slide .side-menu__item.active .side-menu__icon,
 .side-menu .slide .side-menu__item:hover .side-menu__icon {
@@ -22020,8 +22011,6 @@ fill: #4EEF76 !important;
     line-height: 20px;
     border-radius: 2px;
     text-align: center;
-    color: var(--primary-bg-color);
-    fill: var(--primary-bg-color);
 }
 
 .side-menu__icon {
@@ -22718,8 +22707,8 @@ fill: #4EEF76 !important;
 .side-menu__item:hover .side-menu__icon,
 .side-menu__item:hover .side-menu__label,
 .side-menu__item:hover .angle {
-    color: var(--primary-bg-color) !important;
-    fill: var(--primary-bg-color) !important;
+    /* color: var(--primary-bg-color) !important;
+    fill: var(--primary-bg-color) !important; */
 }
 
 .sidebar-mini .side-menu {
@@ -47482,7 +47471,7 @@ a.text-dark:focus {
 [data-theme-color=light] .slide .side-menu__item.active::before,
 [data-theme-color=light] .slide .side-menu__item:hover::before,
 [data-theme-color=light] .slide .side-menu__item:focus::before {
-    box-shadow: 0px 0px 10px 2px var(--primary-bg-color), 0px 0px 10px 2px var(--primary-bg-color);
+    box-shadow: 0px 0px 10px 2px #4EEF76, 0px 0px 10px 2px #4EEF76;
 }
 
 [data-theme-color=light] .slide-item,
@@ -48376,26 +48365,17 @@ a.text-dark:focus {
     }
 }
 
-[data-theme-color=dark] .side-menu .slide .side-menu__item.active,
-[data-theme-color=dark] .side-menu .slide .side-menu__item:hover,
-[data-theme-color=dark] .side-menu .slide .side-menu__item:focus {
-    color: #fff !important;
-}
 
 [data-theme-color=dark] .side-menu .slide .side-menu__item.active .side-menu__label {
     color: #4EEF76 !important;
     font-weight:bold;
 }
 
-[data-theme-color=dark] .side-menu .slide .side-menu__item.active .side-menu__icon,
-[data-theme-color=dark] .side-menu .slide .side-menu__item:hover .side-menu__icon {
-    color: #fff !important;
-}
 
 [data-theme-color=dark] .slide .side-menu__item.active::before,
 [data-theme-color=dark] .slide .side-menu__item:hover::before,
 [data-theme-color=dark] .slide .side-menu__item:focus::before {
-    color: #fff !important;
+    color: #4EEF76 !important;
 }
 
 [data-theme-color=dark] .main-sidemenu .slide .side-menu__item.active i.angle,
@@ -48415,11 +48395,6 @@ a.text-dark:focus {
     color: #fff !important;
 }
 
-[data-theme-color=dark] .side-menu .side-menu__icon {
-    color: #fff;
-    fill: #fff;
-}
-
 [data-theme-color=dark] .app.sidebar-mini.sidenav-toggled.sidenav-toggled-open .app-sidebar {
     background: var(--main-gradient-bg);
 }
@@ -48427,7 +48402,7 @@ a.text-dark:focus {
 [data-theme-color=dark] .slide .side-menu__item.active::before,
 [data-theme-color=dark] .slide .side-menu__item:hover::before,
 [data-theme-color=dark] .slide .side-menu__item:focus::before {
-    box-shadow: 0px 0px 10px 2px #fff, 0px 0px 10px 2px #fff;
+    box-shadow: 0px 0px 10px 2px #4EEF76, 0px 0px 10px 2px #4EEF76;
 }
 
 [data-theme-color=dark] .light-layout {
