@@ -123,6 +123,9 @@ License        :   Licensed under ThemeForest License
 .green-text {
     color:#4EEF76 !important;
 }
+.dark-text{
+    color:#131A24 !important;
+}
 .green-background{
     background: #4EEF76 !important;
 }
@@ -5493,7 +5496,7 @@ pre code {
     margin: 0.125rem 0 0;
     font-size: 0.875rem;
     color: var(--color);
-    background-color: rgb(var(--background-rgb));
+    background-color: #333A44 !important;
     border: 1px solid var(--primary02);
 }
 
@@ -5509,7 +5512,7 @@ pre code {
     top: 0;
     background: linear-gradient(45deg, transparent, var(--primary03), var(--primary06), var(--primary06), var(--primary03), transparent);
     inset-inline-start: 10%;
-    box-shadow: 0 8px 17px 0px var(--primary-bg-color);
+    box-shadow: 0 8px 17px 0px #4EEF76;
 }
 
 .dropdown-menu-left {
@@ -19499,7 +19502,7 @@ hr {
 }
 
 .main-header-right .main-profile-menu .dropdown-menu::before {
-    background: var(--primary-bg-color);
+    background: #4EEF76;
     border-width: 0px;
 }
 
