@@ -18,3 +18,13 @@
 .tabs-style2>.panel-head>.nav-tabs>.nav-item>.nav-link.active{
     background:#4EEF76 !important;
 }
+
+.dropdown-menu svg{
+    margin-right:10px !important;
+}
+
+/* utilities */
+
+.cursor-pointer {
+    cursor:pointer;
+}
