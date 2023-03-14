@@ -23,6 +23,11 @@
     margin-right:10px !important;
 }
 
+/* for all input search */
+.main-header-center>.input-search-game{
+    width:450px !important;
+}
+
 /* utilities */
 
 .cursor-pointer {
