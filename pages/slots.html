@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme-color="dark" data-header-color="dark" data-menu-color="dark">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
+    <meta name="Author" content="Spruko Technologies Private Limited">
+    <meta name="Keywords"
+        content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 5 admin template,bootstrap 5 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 5,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 5,template admin bootstrap 5" />
+
+    <!-- Title -->
+    <title> Dashboard </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/brand/favicon.ico" type="image/x-icon" />
+
+    <!-- Icons css -->
+    <link href="../assets/css/icons.css" rel="stylesheet">
+
+    <!--  Bootstrap css-->
+    <link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Style css -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/login.css" rel="stylesheet">
+    <link href="../assets/css/my-css.css" rel="stylesheet">
+    <link href="../assets/css/slots.css" rel="stylesheet">
+
+    <!-- Plugins css -->
+    <link href="../assets/css/plugins.css" rel="stylesheet">
+
+</head>
+
+<body class="ltr main-body app sidebar-mini">
+    <div class="progress-top-bar"></div>
+
+    <!-- Back-to-top -->
+    <a href="#top" id="back-to-top" class="back-to-top rounded-circle shadow"><i class="las la-arrow-up"></i></a>
+
+    <!-- Loader -->
+    <div id="global-loader">
+        <img src="../assets/img/loader.svg" class="loader-img" alt="Loader">
+    </div>
+    <!-- /Loader -->
+
+    <!-- Page -->
+    <div class="page">
+
+        <div class="layout-position-binder">
+            <!-- main-header -->
+            <div class="main-header side-header sticky nav nav-item">
+                <div class=" main-container container-fluid">
+                    <div class="main-header-left">
+                        <div class="responsive-logo">
+                            <a href="index.html" class="header-logo font-bold green-text">
+                                Froggy
+                            </a>
+                        </div>
+                        <div class=" app-sidebar__toggle" data-bs-toggle="sidebar">
+                            <!-- <div class="icon"></div> -->
+                            <a class="open-toggle" href="javascript:void(0)"><i
+                                    class="header-icon fe fe-align-left"></i></a>
+                            <a class="close-toggle" href="javascript:void(0)"><i class="header-icon fe fe-x"></i></a>
+                        </div>
+                        <div class="logo-horizontal">
+                            <a href="index.html" class="header-logo">
+                                Froggy
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main-header-right">
+                        <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
+                            aria-controls="navbarSupportedContent-4" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon fe fe-more-vertical"></span>
+                        </button>
+                        <div class="mb-0 navbar navbar-expand-lg navbar-nav-right responsive-navbar navbar-dark p-0">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                                <ul class="nav nav-item header-icons navbar-nav-right ms-auto align-items-center">
+                                    <!-- <li class="nav-item">
+										<a class="nav-link green-text text-decoration" href="#"
+											data-bs-target="#register" data-bs-toggle="modal">
+											Register</a>
+									</li>
+									<li class="nav-item">
+										<a class="btn green-background" data-bs-target="#login" data-bs-toggle="modal"
+											href="javascript:void(0)">Login</a>
+
+									</li> -->
+                                    <li class="nav-item">
+                                        <a class="btn green-background dark-text" href="javascript:void(0)">Connect
+                                            Wallet</a>
+
+                                    </li>
+                                    <li class="dropdown main-profile-menu nav-item pr-3">
+                                        <a class="green-text d-flex align-items-center cursor-pointer"
+                                            href="javascript:void(0)" data-bs-toggle="dropdown">
+                                            <img src="../assets/img/photos/frog-icon.png" alt="frog icon" class="mx-3">
+                                            y*******@gmail.com</a>
+                                        <ul class="dropdown-menu">
+
+                                            <li><a class="dropdown-item" href="profile.html">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none">
+                                                        <path
+                                                            d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
+                                                            stroke="#4EEF76" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+                                                            stroke="#4EEF76" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    Profile</a></li>
+                                            <li><a class="dropdown-item" href="mail-read.html">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none">
+                                                        <rect x="2" y="4" width="17" height="7" rx="3" stroke="#4EEF76"
+                                                            stroke-width="2" />
+                                                        <rect x="3.5" y="6.5" width="16" height="12" rx="1.5"
+                                                            stroke="#4EEF76" />
+                                                        <rect x="2" y="7" width="19" height="14" rx="3" fill="#333A44"
+                                                            stroke="#4EEF76" stroke-width="2" />
+                                                        <path
+                                                            d="M12 13C12 11.3431 13.3431 10 15 10H21V16H15C13.3431 16 12 14.6569 12 13Z"
+                                                            stroke="#4EEF76" stroke-width="2" />
+                                                        <circle cx="16" cy="13" r="1" stroke="#4EEF76" />
+                                                    </svg>
+                                                    Deposit</a></li>
+                                            <li><a class="dropdown-item" href="signup.html">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none">
+                                                        <path d="M17 1L21 5L17 9" stroke="#4EEF76" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path
+                                                            d="M3 11V9C3 7.93913 3.42143 6.92172 4.17157 6.17157C4.92172 5.42143 5.93913 5 7 5H21"
+                                                            stroke="#4EEF76" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7 23L3 19L7 15" stroke="#4EEF76" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path
+                                                            d="M21 13V15C21 16.0609 20.5786 17.0783 19.8284 17.8284C19.0783 18.5786 18.0609 19 17 19H3"
+                                                            stroke="#4EEF76" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    Transactions</a></li>
+                                            <li><a class="dropdown-item" href="signup.html">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none">
+                                                        <path
+                                                            d="M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9"
+                                                            stroke="#4EEF76" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M16 17L21 12L16 7" stroke="#4EEF76" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M21 12H9" stroke="#4EEF76" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                    Keluar</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li class="nav-item full-screen fullscreen-button">
+										<a class="new nav-link full-screen-link" href="javascript:void(0)"><svg
+												class="ionicon header-icon-svgs" viewBox="0 0 512 512">
+												<title>Full Width</title>
+												<path fill="none" stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" stroke-width="32"
+													d="M432 320v112H320M421.8 421.77L304 304M80 192V80h112M90.2 90.23L208 208M320 80h112v112M421.77 90.2L304 208M192 432H80V320M90.23 421.8L208 304" />
+											</svg></a>
+									</li>
+									 -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /main-header -->
+
+            <!-- main-sidebar -->
+            <div class="sticky">
+                <aside class="app-sidebar">
+                    <div class="main-sidebar-header active d-flex justify-content-center align-items-center">
+                        <a class="header-logo active font-bold green-text" href="../index.html">
+                            Froggy
+                        </a>
+                    </div>
+                    <div class="main-sidemenu">
+                        <div class="slide-left disabled" id="slide-left"><svg fill="#7b8191" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
+                            </svg></div>
+                        <ul class="side-menu">
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="../index.html">
+                                    <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="24" viewBox="0 0 20 24" fill="none">
+                                        <path
+                                            d="M3.125 8.28125V17.5C3.125 17.6658 3.19085 17.8247 3.30806 17.9419C3.42527 18.0592 3.58424 18.125 3.75 18.125H7.5V12.8125C7.5 12.5639 7.59877 12.3254 7.77459 12.1496C7.9504 11.9738 8.18886 11.875 8.4375 11.875H11.5625C11.8111 11.875 12.0496 11.9738 12.2254 12.1496C12.4012 12.3254 12.5 12.5639 12.5 12.8125V18.125H16.25C16.4158 18.125 16.5747 18.0592 16.6919 17.9419C16.8092 17.8247 16.875 17.6658 16.875 17.5V8.28125"
+                                            stroke="#4EEF76" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M18.75 9.99999L10.4254 2.03124C10.2301 1.82499 9.77344 1.82265 9.57461 2.03124L1.25 9.99999M15.625 6.99218V2.49999H13.75V5.1953"
+                                            stroke="#4EEF76" stroke-width="1.25" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="side-menu__label">Home</span></a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="10" cy="12" r="9.5" stroke="#4EEF76" />
+                                        <circle cx="10" cy="12" r="6.5" stroke="#4EEF76" />
+                                        <path
+                                            d="M7.69 16V10.23C7.69 9.91667 7.73667 9.65667 7.83 9.45C7.92333 9.23667 8.04667 9.07 8.2 8.95C8.36 8.83 8.53333 8.74667 8.72 8.7C8.91333 8.64667 9.10333 8.62 9.29 8.62C9.55 8.62 9.85667 8.62333 10.21 8.63C10.5633 8.63 10.9333 8.64 11.32 8.66C11.7067 8.67333 12.08 8.69667 12.44 8.73V9.76H9.62C9.4 9.76 9.22667 9.82333 9.1 9.95C8.98 10.07 8.92 10.2367 8.92 10.45V11.94L11.99 12.01V12.98L8.92 13.05V16H7.69Z"
+                                            fill="#4EEF76" />
+                                    </svg>
+                                    <span class="side-menu__label">$ Froggy</span></a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.5 6.5C5.5 5.11929 6.61929 4 8 4H16C17.3807 4 18.5 5.11929 18.5 6.5V7.5C18.5 8.3178 18.1073 9.04389 17.5002 9.5C18.1073 9.95612 18.5 10.6822 18.5 11.5V12.5C18.5 13.3178 18.1073 14.0439 17.5002 14.5C18.1073 14.9561 18.5 15.6822 18.5 16.5V17.5C18.5 18.8807 17.3807 20 16 20H8C6.61929 20 5.5 18.8807 5.5 17.5V16.5C5.5 15.6822 5.89267 14.9561 6.49976 14.5C5.89267 14.0439 5.5 13.3178 5.5 12.5V11.5C5.5 10.6822 5.89267 9.95612 6.49976 9.5C5.89267 9.04389 5.5 8.3178 5.5 7.5V6.5ZM8 15C7.17157 15 6.5 15.6716 6.5 16.5V17.5C6.5 18.3284 7.17157 19 8 19H16C16.8284 19 17.5 18.3284 17.5 17.5V16.5C17.5 15.6716 16.8284 15 16 15H8ZM6.5 11.5C6.5 10.6716 7.17157 10 8 10H16C16.8284 10 17.5 10.6716 17.5 11.5V12.5C17.5 13.3284 16.8284 14 16 14H8C7.17157 14 6.5 13.3284 6.5 12.5V11.5ZM8 5C7.17157 5 6.5 5.67157 6.5 6.5V7.5C6.5 8.32843 7.17157 9 8 9H16C16.8284 9 17.5 8.32843 17.5 7.5V6.5C17.5 5.67157 16.8284 5 16 5H8Z"
+                                            fill="#4EEF76" />
+                                        <circle cx="6" cy="13.5" r="5.5" fill="#131A24" stroke="#4EEF76" />
+                                        <path
+                                            d="M5.722 15.536C5.614 15.536 5.498 15.532 5.374 15.524C5.254 15.52 5.13 15.512 5.002 15.5C4.878 15.484 4.76 15.47 4.648 15.458C4.536 15.442 4.436 15.424 4.348 15.404V14.822C4.46 14.83 4.59 14.838 4.738 14.846C4.89 14.854 5.048 14.86 5.212 14.864C5.376 14.868 5.534 14.87 5.686 14.87C5.846 14.87 5.988 14.856 6.112 14.828C6.236 14.796 6.332 14.742 6.4 14.666C6.468 14.59 6.502 14.482 6.502 14.342V14.132C6.502 13.976 6.458 13.856 6.37 13.772C6.282 13.688 6.152 13.646 5.98 13.646H5.566C5.162 13.646 4.85 13.558 4.63 13.382C4.414 13.206 4.306 12.904 4.306 12.476V12.248C4.306 11.82 4.424 11.512 4.66 11.324C4.9 11.132 5.242 11.036 5.686 11.036C5.838 11.036 5.994 11.044 6.154 11.06C6.318 11.072 6.474 11.088 6.622 11.108C6.77 11.128 6.896 11.15 7 11.174V11.756C6.824 11.744 6.622 11.732 6.394 11.72C6.17 11.708 5.962 11.702 5.77 11.702C5.618 11.702 5.484 11.718 5.368 11.75C5.252 11.782 5.164 11.84 5.104 11.924C5.044 12.004 5.014 12.124 5.014 12.284V12.428C5.014 12.616 5.064 12.748 5.164 12.824C5.268 12.9 5.416 12.938 5.608 12.938H6.07C6.33 12.938 6.544 12.986 6.712 13.082C6.88 13.178 7.004 13.31 7.084 13.478C7.168 13.642 7.21 13.83 7.21 14.042V14.324C7.21 14.652 7.146 14.904 7.018 15.08C6.89 15.256 6.714 15.376 6.49 15.44C6.266 15.504 6.01 15.536 5.722 15.536Z"
+                                            fill="#4EEF76" />
+                                    </svg>
+                                    <span class="side-menu__label">Staking</span>
+
+                                </a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                    <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="none">
+                                        <g clip-path="url(#clip0_8_63)">
+                                            <path d="M17.4999 12.1667V21.3334H2.83325V12.1667" stroke="#4EEF76"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M19.3333 7.58337H1V12.1667H19.3333V7.58337Z" stroke="#4EEF76"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.1666 21.3334V7.58337" stroke="#4EEF76" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M10.1667 7.58333H6.04167C5.43388 7.58333 4.85098 7.34189 4.42121 6.91212C3.99144 6.48235 3.75 5.89945 3.75 5.29167C3.75 4.68388 3.99144 4.10098 4.42121 3.67121C4.85098 3.24144 5.43388 3 6.04167 3C9.25 3 10.1667 7.58333 10.1667 7.58333Z"
+                                                stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M10.1666 7.58333H14.2916C14.8994 7.58333 15.4823 7.34189 15.9121 6.91212C16.3419 6.48235 16.5833 5.89945 16.5833 5.29167C16.5833 4.68388 16.3419 4.10098 15.9121 3.67121C15.4823 3.24144 14.8994 3 14.2916 3C11.0833 3 10.1666 7.58333 10.1666 7.58333Z"
+                                                stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_8_63">
+                                                <rect width="22" height="22" fill="white" transform="translate(1 1)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <span class="side-menu__label">Promotions</span></a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link active" data-bs-toggle="slide" href="#">
+                                    <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="26"
+                                        height="24" viewBox="0 0 26 24" fill="none">
+                                        <path
+                                            d="M0.5 9C0.5 8.17157 1.17157 7.5 2 7.5H7.5V17.5H2C1.17157 17.5 0.5 16.8284 0.5 16V9Z"
+                                            stroke="#4EEF76" />
+                                        <path
+                                            d="M14.5 7.5H20C20.8284 7.5 21.5 8.17157 21.5 9V16C21.5 16.8284 20.8284 17.5 20 17.5H14.5V7.5Z"
+                                            stroke="#4EEF76" />
+                                        <rect x="7.5" y="7.5" width="7" height="10" stroke="#4EEF76" />
+                                        <path d="M2.708 15L4.028 11.448H2.138V10.56H4.94L5.174 10.938L3.704 15H2.708Z"
+                                            fill="#4EEF76" />
+                                        <path
+                                            d="M9.708 15L11.028 11.448H9.138V10.56H11.94L12.174 10.938L10.704 15H9.708Z"
+                                            fill="#4EEF76" />
+                                        <path
+                                            d="M16.708 15L18.028 11.448H16.138V10.56H18.94L19.174 10.938L17.704 15H16.708Z"
+                                            fill="#4EEF76" />
+                                        <path d="M22 13C22.8 13 23.6667 13 24 13V5" stroke="#4EEF76" />
+                                        <circle cx="24" cy="4" r="1.5" stroke="#4EEF76" />
+                                    </svg>
+                                    <span class="side-menu__label">Slots</span>
+                                </a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                    <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="25" viewBox="0 0 24 25" fill="none">
+                                        <rect x="7.5749" y="4.93605" width="13" height="15.2508" rx="1.5"
+                                            transform="rotate(12.31 7.5749 4.93605)" stroke="#4EEF76" />
+                                        <rect x="3.8989" y="5.88863" width="13" height="16.6713" rx="1.5"
+                                            transform="rotate(-4.30313 3.8989 5.88863)" fill="#131A24"
+                                            stroke="#4EEF76" />
+                                        <rect x="0.614869" y="7.06862" width="13" height="17.858" rx="1.5"
+                                            transform="rotate(-15.407 0.614869 7.06862)" fill="#131A24"
+                                            stroke="#4EEF76" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10.9841 15.3412C11.2872 15.4015 11.6089 15.3922 11.9263 15.3007C12.9877 14.995 13.6003 13.8867 13.2946 12.8252C12.9888 11.7638 11.8805 11.1513 10.8191 11.457C10.7827 11.4675 10.7469 11.4789 10.7117 11.4912L10.7097 11.4884C10.7228 11.2677 10.6992 11.041 10.6345 10.8164C10.3288 9.75498 9.22047 9.1424 8.15906 9.44816C7.09766 9.75392 6.48508 10.8622 6.79084 11.9236C6.85555 12.1483 6.95622 12.3528 7.08479 12.5328L7.0846 12.5361C7.04814 12.5444 7.01171 12.5538 6.97533 12.5643C5.91392 12.8701 5.30135 13.9784 5.6071 15.0398C5.91286 16.1012 7.02117 16.7138 8.08258 16.408C8.40001 16.3166 8.67731 16.1533 8.90189 15.941L8.78326 17.4531C8.7778 17.5227 8.84354 17.5763 8.91064 17.557L11.8364 16.7142C11.9035 16.6949 11.9306 16.6145 11.889 16.5584L10.9841 15.3412ZM9.74477 14.5416C9.74412 14.5407 9.74348 14.5398 9.74284 14.5389C9.70758 14.5512 9.67178 14.5626 9.63545 14.5731C9.59907 14.5836 9.56263 14.593 9.52618 14.6013C9.52611 14.6024 9.52605 14.6035 9.52598 14.6046L9.74477 14.5416Z"
+                                            fill="#4EEF76" />
+                                    </svg>
+                                    <span class="side-menu__label">Live Games</span>
+                                </a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                    <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="none">
+                                        <path
+                                            d="M11.3333 3.66666L13.9083 8.88332L19.6667 9.72499L15.5 13.7833L16.4833 19.5167L11.3333 16.8083L6.18333 19.5167L7.16667 13.7833L3 9.72499L8.75833 8.88332L11.3333 3.66666Z"
+                                            stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="side-menu__label">Favorit</span>
+                                </a>
+                            </li>
+                            <li class="slide mb-3">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                    <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 20 20" fill="none">
+                                        <path
+                                            d="M14.1666 17.5V15.8333C14.1666 14.9493 13.8155 14.1014 13.1903 13.4763C12.5652 12.8512 11.7174 12.5 10.8333 12.5H4.16665C3.28259 12.5 2.43474 12.8512 1.80962 13.4763C1.1845 14.1014 0.833313 14.9493 0.833313 15.8333V17.5"
+                                            stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M7.50002 9.16667C9.34097 9.16667 10.8334 7.67428 10.8334 5.83333C10.8334 3.99238 9.34097 2.5 7.50002 2.5C5.65907 2.5 4.16669 3.99238 4.16669 5.83333C4.16669 7.67428 5.65907 9.16667 7.50002 9.16667Z"
+                                            stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M19.1667 17.5V15.8333C19.1661 15.0948 18.9203 14.3773 18.4678 13.7936C18.0153 13.2099 17.3818 12.793 16.6667 12.6083"
+                                            stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M13.3333 2.60834C14.0503 2.79192 14.6858 3.20892 15.1397 3.7936C15.5935 4.37827 15.8398 5.09736 15.8398 5.8375C15.8398 6.57765 15.5935 7.29674 15.1397 7.88141C14.6858 8.46609 14.0503 8.88309 13.3333 9.06667"
+                                            stroke="#4EEF76" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="side-menu__label">Earns</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="slide-right" id="slide-right"><svg fill="#7b8191" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
+                            </svg></div>
+                    </div>
+                </aside>
+            </div>
+            <!-- main-sidebar -->
+        </div>
+
+        <!-- main-content -->
+        <div class="main-content app-content">
+
+            <!-- container -->
+            <div class="main-container container-fluid">
+                <div class="mt-4 mb-5">
+                    <h3 class="font-bold">Slots</h3>
+                </div>
+                <div class="flex justify-content-between items-center">
+                    <div class="main-header-center ms-0 form-group my-3">
+                        <input class="form-control input-search-game" placeholder="Search Games..." type="search">
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="text-wrap">
+                        <div class="panel tabs-style7 scaleX tabs-slot">
+                            <div class="panel-head mb-4">
+                                <ul class="nav nav-tabs d-sm-flex d-block justify-content-between">
+                                    <li class=" nav-item"><a class="nav-link active" data-bs-toggle="tab"
+                                            href="#scaleXtab1">All Games</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scaleXtab2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M5.9999 10C1.9999 18.8 8.33323 21.6667 11.9999 22C22.4999 22 18.4999 11.5 15.9999 11C13.9999 10.6 14.1666 5.83333 14.4999 3.5C11.2999 5.1 9.49991 9.5 8.99991 11.5L5.9999 10Z"
+                                                    stroke="#FFFFFF" />
+                                                <path
+                                                    d="M9.63241 16.9595C7.65413 20.2892 10.7864 21.3739 12.5998 21.5C17.7928 21.5 15.8145 17.527 14.5781 17.3378C13.589 17.1865 13.6714 15.3829 13.8363 14.5C12.2536 15.1054 11.3634 16.7703 11.1161 17.527L9.63241 16.9595Z"
+                                                    stroke="#FFFFFF" />
+                                            </svg>
+                                            Popular (32)</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scaleXtab3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M5.5 14C7.5 6 16.6667 3.66667 21 3.5C21.4 13.1 14.1667 17.8333 10.5 19L5.5 14Z"
+                                                    stroke="white" />
+                                                <rect x="14.6792" y="5.05127" width="1.3572" height="7.10106"
+                                                    transform="rotate(-41.9822 14.6792 5.05127)" fill="white" />
+                                                <circle cx="13" cy="11.5" r="2.5" stroke="white" />
+                                                <path
+                                                    d="M5 9.00003C6.2 8.20003 7.16667 9.00003 7.5 9.50003L5.5 12.5L2.5 11C2.83333 10.6667 3.8 9.80003 5 9.00003Z"
+                                                    stroke="white" />
+                                                <path
+                                                    d="M15.8722 19.3951C16.7602 18.2587 16.0352 17.2346 15.5617 16.8646L12.4197 18.6332L13.6897 21.7375C14.0472 21.4302 14.9841 20.5315 15.8722 19.3951Z"
+                                                    stroke="white" />
+                                                <rect x="2.28516" y="21.415" width="5.51393" height="1" rx="0.5"
+                                                    transform="rotate(-47.5283 2.28516 21.415)" fill="white" />
+                                                <rect x="6.3999" y="21.9116" width="3.69939" height="1" rx="0.5"
+                                                    transform="rotate(-85.1383 6.3999 21.9116)" fill="white" />
+                                                <rect width="3.69939" height="1" rx="0.5"
+                                                    transform="matrix(-0.994699 0.102831 0.102831 0.994699 5.67969 16.5)"
+                                                    fill="white" />
+                                            </svg>
+                                            New Release</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scaleXtab1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M22 12.5H18.7208C18.2903 12.5 17.9082 12.7754 17.7721 13.1838L15.9487 18.654C15.6448 19.5656 14.3552 19.5656 14.0513 18.654L9.94868 6.34605C9.64478 5.43435 8.35522 5.43435 8.05132 6.34605L6.22792 11.8162C6.09181 12.2246 5.70967 12.5 5.27924 12.5H2"
+                                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                            High RTP</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scaleXtab2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M18.5 3.5H6C6 7 7.1 14.2 11.5 15C15.9 15.8 18 7.66667 18.5 3.5Z"
+                                                    stroke="white" />
+                                                <path
+                                                    d="M6 4.72086C5.6 4.32086 3.83333 4.55419 3 4.72086C3.16667 7.22086 4.2 11.9209 7 10.7209"
+                                                    stroke="white" />
+                                                <path
+                                                    d="M18.3324 4.72086C18.7324 4.32086 20.1667 4.55419 21 4.72086C20.8333 7.22086 19.8 11.9209 17 10.7209"
+                                                    stroke="white" />
+                                                <path d="M10 14.5V18.5H14V14.5" stroke="white" />
+                                                <path
+                                                    d="M6.5 20.5C6.5 19.6716 7.17157 19 8 19H16C16.8284 19 17.5 19.6716 17.5 20.5V22H6.5V20.5Z"
+                                                    stroke="white" />
+                                                <g clip-path="url(#clip0_171_1709)">
+                                                    <path
+                                                        d="M12 6L12.7725 7.565L14.5 7.8175L13.25 9.035L13.545 10.755L12 9.9425L10.455 10.755L10.75 9.035L9.5 7.8175L11.2275 7.565L12 6Z"
+                                                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_171_1709">
+                                                        <rect width="6" height="6" fill="white"
+                                                            transform="translate(9 5.5)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            Big win</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="scaleXtab1">
+                                        <div class="d-flex justify-content-between flex-wrap gap-2">
+                                            <div class="col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game1.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            100 Joker Stax
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game2.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Gates Of Olympus
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game3.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            The Dog House Megaways
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game3.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            The Dog House Megaways
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game4.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Starlight Princess
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game5.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            5 Lions Megaway
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game6.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Panda's Fortune
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game7.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Joker Jewels
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game8.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Hot to Burn
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game5.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            5 Lions Megaway
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="scaleXtab2">
+                                        <div class="d-flex justify-content-between flex-wrap gap-2">
+                                            <div class="col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game1.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            100 Joker Stax
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game2.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Gates Of Olympus
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game3.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            The Dog House Megaways
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game3.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            The Dog House Megaways
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game4.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Starlight Princess
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game5.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            5 Lions Megaway
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game6.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Panda's Fortune
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game7.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Joker Jewels
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game8.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Hot to Burn
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game5.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            5 Lions Megaway
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="scaleXtab3">
+                                        <div class="d-flex justify-content-between flex-wrap gap-2">
+                                            <div class="col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game1.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            100 Joker Stax
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game2.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Gates Of Olympus
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game3.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            The Dog House Megaways
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game3.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            The Dog House Megaways
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game4.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Starlight Princess
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game5.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            5 Lions Megaway
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game6.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Panda's Fortune
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game7.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Joker Jewels
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game8.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            Hot to Burn
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <img alt="Image" class="img-fluid card-img"
+                                                            src="../assets/img/photos/game5.png">
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="card-title ellipsis">
+                                                            5 Lions Megaway
+                                                        </div>
+                                                        <p class="mb-0">Bgaming</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game Providers -->
+                <div>
+                    <h5 class="mb-3">Game Providers</h5>
+                    <div class="text-wrap provider-tab">
+                        <div class="panel tabs-style2">
+                            <div class="panel-head">
+                                <ul class="nav nav-tabs d-sm-flex d-block justify-content-evenly">
+                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+                                            <img src="../assets/img/photos/provider1.png" width="80" height="26">
+                                        </a></li>
+                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+                                            <img src="../assets/img/photos/provider2.png" width="80" height="26">
+                                        </a></li>
+                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+                                            <img src="../assets/img/photos/provider3.png" width="80" height="26">
+                                        </a></li>
+                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
+                                            <img src="../assets/img/photos/provider4.png" width="80" height="26">
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="login" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content modal-content-login">
+                        <div class="modal-body modal-login">
+                            <div class="wrapper">
+                                <div class="card-login">
+                                    <form action="#" class="d-flex flex-column">
+                                        <div class="text-center text-white">
+                                            <h4 class="title">Hello, Frogramers !</h4>
+                                            <p class="sub-title">Please enter your account to log in and start to having
+                                                fun with us</p>
+                                        </div>
+                                        <div class="d-flex align-items-center input-field my-3 mb-4">
+                                            <span class="far fa-user p-2"></span>
+                                            <input type="text" placeholder="Username or Email" required
+                                                class="form-control">
+                                        </div>
+                                        <div class="d-flex align-items-center input-field mb-2">
+                                            <span class="fas fa-lock p-2"></span>
+                                            <input type="password" placeholder="Password" required class="form-control"
+                                                id="pwd">
+                                            <button class="btn" onclick="showPassword()">
+                                                <span class="fas fa-eye-slash"></span>
+                                            </button>
+                                        </div>
+                                        <div class="d-sm-flex align-items-sm-center justify-content-end">
+                                            <div class="mt-sm-0"><a href="#">Forgot password?</a></div>
+                                        </div>
+                                        <div class="my-3">
+                                            <input type="submit" value="Login" class="btn btn-primary">
+                                        </div>
+                                        <div class="mb-3 text-center">
+                                            <span class="text-light-white">Don't have an account?</span>
+                                            <a href="#" class="green-text text-decoration" data-bs-target="#register"
+                                                data-bs-toggle="modal">Sign Up</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="register" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content modal-content-login">
+                        <div class="modal-body modal-login">
+                            <div class="wrapper">
+                                <div class="card-login">
+                                    <form action="#" class="d-flex flex-column">
+                                        <div class="text-center text-white">
+                                            <h4 class="title">Let’s Create You Account</h4>
+                                            <p class="sub-title">Let’s Create You Account</p>
+                                        </div>
+                                        <div class="d-flex align-items-center input-field my-3 mb-4">
+                                            <span class="far fa-user p-2"></span>
+                                            <input type="text" placeholder="Username or Email" required
+                                                class="form-control">
+                                        </div>
+                                        <div class="d-flex align-items-center input-field mb-4">
+                                            <span class="fas fa-lock p-2"></span>
+                                            <input type="password" placeholder="Password" required class="form-control"
+                                                id="pwd">
+                                            <button class="btn" onclick="showPassword()">
+                                                <span class="fas fa-eye-slash"></span>
+                                            </button>
+                                        </div>
+                                        <div class="d-flex align-items-center input-field mb-2">
+                                            <span class="fas fa-lock p-2"></span>
+                                            <input type="password" placeholder="Repeat your password" required
+                                                class="form-control" id="pwd">
+                                            <button class="btn" onclick="showPassword()">
+                                                <span class="fas fa-eye-slash"></span>
+                                            </button>
+                                        </div>
+                                        <div class="d-sm-flex align-items-sm-center justify-content-between mt-3">
+                                            <div class="d-flex align-items-center">
+                                                <label class="option">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                    <p class="text-light-white">I am 18 years old and understand the
+                                                        <span class="green-text text-decoration">terms and
+                                                            conditions.</span>
+                                                    </p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="my-3">
+                                            <input type="submit" value="Create My Account" class="btn btn-primary">
+                                        </div>
+                                        <div class="mb-3 text-center">
+                                            <span class="text-light-white">Already have an account?</span>
+                                            <a href="#" class="green-text text-decoration" data-bs-target="#login"
+                                                data-bs-toggle="modal">Log in</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Container -->
+
+        </div>
+        <!-- /main-content -->
+
+        <!-- Footer opened -->
+        <div class="main-footer mt-5">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="container-fluid pd-t-0 ht-100p">
+                    <p>FrogyGames Engine is owned and operated by Hollycorn N.V., registration number: 144539,
+                        registered
+                        address: Scharlooweg 39, Willemstad, Curaçao . FrogyGames is authorized and regulated by the
+                        Government of Curacao and operates under License No. 10732, registered address: 7 Abraham de
+                        Veerstraat, Curaçao.</p>
+
+                    <p>JB Engine has passed all compliance and is legally authorized to conduct gaming operations for
+                        all
+                        games of chance and wagering.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer closed -->
+
+    </div>
+    <!-- End Page -->
+
+    <!-- JQuery min js -->
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Apexchart js -->
+    <script src="../assets/js/apexcharts.js"></script>
+
+    <!--Internal  Chart.bundle js -->
+    <script src="../assets/plugins/chart.js/Chart.bundle.min.js"></script>
+
+    <!-- Perfect-scrollbar js -->
+    <script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="../assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+    <!-- Sidebar js -->
+    <script src="../assets/plugins/side-menu/sidemenu.js"></script>
+
+    <!-- Sticky js -->
+    <script src="../assets/js/sticky.js"></script>
+
+    <!-- Data tables -->
+    <script src="../assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
+    <script src="../assets/plugins/datatable/dataTables.responsive.min.js"></script>
+    <script src="../assets/plugins/datatable/responsive.bootstrap5.min.js"></script>
+
+    <!-- Internal index js -->
+    <script src="../assets/js/index-6.js"></script>
+
+    <script src="../assets/js/modal.js"></script>
+
+    <!-- custom-switcher js -->
+    <script src="../assets/js/custom-switcher.js"></script>
+
+    <!-- custom js -->
+    <script src="../assets/js/custom.js"></script>
+
+</body>
+
+</html>
