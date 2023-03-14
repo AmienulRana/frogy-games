@@ -1,0 +1,22 @@
+.tabs-style7>.panel-head>.nav-tabs>.nav-item>.nav-link.active svg{
+    color:#4EEF76 !important;
+}
+
+.tabs-style7>.panel-head>.nav-tabs>.nav-item>.nav-link svg{
+    color:#C8C8C8 !important;
+    margin-right:5px;
+}
+
+.tabs-slot.tab-style7 .nav-item {
+    dispal:flex;
+    align-items:center;
+    font-size:16px !important;
+} 
+
+.tabs-style7>.panel-head>.nav-tabs>.nav-item>.nav-link{
+    font-size:16px !important;
+}
+
+.main-header-center>.input-search-game{
+    width:450px !important;
+}
