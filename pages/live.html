@@ -185,9 +185,9 @@
             <div class="sticky">
                 <aside class="app-sidebar">
                     <div class="main-sidebar-header active d-flex justify-content-center align-items-center">
-                        <a class="header-logo active font-bold green-text" href="../index.html">
-                            Froggy
-                        </a>
+                        <a class="header-logo active font-bold green-text" href="./index.html">
+							<p class="main-logo desktop-dark">Froggy</p>
+						</a>
                     </div>
                     <div class="main-sidemenu">
                         <div class="slide-left disabled" id="slide-left"><svg fill="#7b8191" width="24" height="24"
@@ -362,12 +362,23 @@
                 <div class="mt-4 mb-5">
                     <h3 class="font-bold">Live Games</h3>
                 </div>
-                <div class="flex justify-content-between items-center">
-                    <div class="main-header-center ms-0 form-group my-3">
-                        <input class="form-control input-search-game" placeholder="Search Games..." type="search">
-                    </div>
-
-                </div>
+                <div class="d-flex align-items-center justify-content-between">
+					<div class="main-header-center ms-0	 form-group my-3">
+						<input class="form-control w-100 input-search-game" placeholder="Search Games..." type="search">
+						<!-- <button class="btn br-te-4 br-be-4"><i class="fas fa-search"></i></button> -->
+					</div>
+					<div class="btn-group m-1">
+						<div class="dropdown">
+							<button aria-expanded="false" aria-haspopup="true" class="btn dropdown-provider" data-bs-toggle="dropdown" id="dropdownMenuButton01" type="button">All Providers <i class="fa fa-chevron-down ms-2 tx-10"></i></button>
+							<div class="dropdown-menu tx-13">
+								<a class="dropdown-item" href="javascript:void(0);">Bgaming</a>
+								<a class="dropdown-item" href="javascript:void(0);">Progmatic Play</a>
+								<a class="dropdown-item" href="javascript:void(0);">1 Spin 4 Win</a>
+								<a class="dropdown-item" href="javascript:void(0);">Nolimit city</a>
+							</div>
+						</div>
+					</div>
+				</div>
 
                 <div>
                     <div class="text-wrap">
@@ -467,12 +478,23 @@
                             <div class="panel-body">
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="scaleXtab1">
-                                        <div class="d-flex justify-content-between flex-wrap gap-2">
+                                        <div class="d-flex justify-content-center justify-content-sm-between flex-wrap gap-2">
                                             <div class="col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game1.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game1.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -485,8 +507,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game2.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game2.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -499,8 +532,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game3.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game3.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -513,8 +557,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game3.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game4.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -527,8 +582,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game4.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game5.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -541,8 +607,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game5.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game5.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -555,8 +632,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game6.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game6.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -569,8 +657,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game7.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game7.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -583,8 +682,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game8.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game8.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -597,8 +707,19 @@
                                             <div class=" col-sm-5 col-md-4 col-lg-2 col-xl-2">
                                                 <div class="card">
                                                     <div class="card-body">
-                                                        <img alt="Image" class="img-fluid card-img"
-                                                            src="../assets/img/photos/live_game9.png">
+                                                        <div class="content-game">
+                                                            <img alt="Image" class="img-fluid card-img"
+                                                                src="../assets/img/photos/live_game9.png">
+                                                            <div class="button-game">
+                                                                <a href="../pages/details.html" class="btn btn-free">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                                                        <path d="M12.5 22.7812C18.0228 22.7812 22.5 18.3041 22.5 12.7812C22.5 7.2584 18.0228 2.78125 12.5 2.78125C6.97715 2.78125 2.5 7.2584 2.5 12.7812C2.5 18.3041 6.97715 22.7812 12.5 22.7812Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        <path d="M10.5 8.78125L16.5 12.7812L10.5 16.7812V8.78125Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </svg>
+                                                                    Play
+                                                                    </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="card-footer">
                                                         <div class="card-title ellipsis">
@@ -905,31 +1026,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Game Providers -->
-                <div>
-                    <h5 class="mb-3">Game Providers</h5>
-                    <div class="text-wrap provider-tab">
-                        <div class="panel tabs-style2">
-                            <div class="panel-head">
-                                <ul class="nav nav-tabs d-sm-flex d-block justify-content-evenly">
-                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
-                                            <img src="../assets/img/photos/provider1.png" width="80" height="26">
-                                        </a></li>
-                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
-                                            <img src="../assets/img/photos/provider2.png" width="80" height="26">
-                                        </a></li>
-                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
-                                            <img src="../assets/img/photos/provider3.png" width="80" height="26">
-                                        </a></li>
-                                    <li class="nav-item mb-2 mb-sm-0"><a class="nav-link" href="#">
-                                            <img src="../assets/img/photos/provider4.png" width="80" height="26">
-                                        </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
 
@@ -1040,23 +1136,6 @@
         </div>
         <!-- /main-content -->
 
-        <!-- Footer opened -->
-        <div class="main-footer mt-5">
-            <div class="col-md-12 col-sm-12 text-center">
-                <div class="container-fluid pd-t-0 ht-100p">
-                    <p>FrogyGames Engine is owned and operated by Hollycorn N.V., registration number: 144539,
-                        registered
-                        address: Scharlooweg 39, Willemstad, Curaçao . FrogyGames is authorized and regulated by the
-                        Government of Curacao and operates under License No. 10732, registered address: 7 Abraham de
-                        Veerstraat, Curaçao.</p>
-
-                    <p>JB Engine has passed all compliance and is legally authorized to conduct gaming operations for
-                        all
-                        games of chance and wagering.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Footer closed -->
 
     </div>
     <!-- End Page -->

@@ -1,0 +1,76 @@
+.preview-games {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.preview-games svg {
+  width: 25px;
+}
+.content-game {
+  position: relative;
+}
+.content-game:hover > .button-game {
+  opacity: 1;
+}
+.button-game {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 300ms;
+}
+.button-game .btn-free {
+  color: #4eef76;
+  background: #131a24;
+}
+.button-game .btn-live {
+  background: #4eef76;
+  color: #131a24;
+  margin-left: 20px;
+}
+.wrapper-detail-game {
+  background: #293039;
+  width: 100%;
+}
+.detail-game .background-star {
+  background: #2d433f;
+  height: 100%;
+  margin-right: 15px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-game .name-game {
+  margin: 20px 0;
+}
+.detail-game .name-game h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.detail-game .name-game p {
+  margin-bottom: 0px;
+}
+svg.maximize {
+  margin-right: 25px;
+}
+.table-bet {
+  background: #293039;
+  border: none;
+}
+.table thead th {
+  background: #293039 !important;
+}
+thead,
+tbody,
+tr,
+td,
+th,
+table {
+  border: none !important;
+}
