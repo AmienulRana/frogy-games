@@ -1,0 +1,56 @@
+.summary-header {
+  background: #242a32;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.summary-header svg.frogy {
+  width: 100px;
+}
+.summary-header .gmail {
+  margin: 0 20px;
+  border-radius: 50px;
+  background: #2f353c;
+  padding: 10px 15px;
+  min-width: 170px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.summary-body {
+  background: #21262e;
+}
+
+.summary-body .link-profile {
+  background: #131a24;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.summary-body .link-profile p {
+  font-size: 14px;
+}
+
+.summary-body .download {
+  background: #4eef76;
+  color: black;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+.overview .bonus {
+  background: #242a32;
+  padding: 45px 15px;
+  border-radius: 20px;
+}
+.overview svg {
+  width: 80px;
+}
+.bonus-wrapper {
+  background: linear-gradient(90.28deg, #4eef76 49.76%, #f9ca12 113.3%);
+  padding: 10px 25px;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}

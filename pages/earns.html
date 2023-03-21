@@ -27,7 +27,10 @@
     <link href="../assets/css/style.css" rel="stylesheet">
     <link href="../assets/css/login.css" rel="stylesheet">
     <link href="../assets/css/my-css.css" rel="stylesheet">
+    <link href="../assets/css/my-wallet.css" rel="stylesheet">
     <link href="../assets/css/profile.css" rel="stylesheet">
+    <link href="../assets/css/detail.css" rel="stylesheet">
+    <link href="../assets/css/earns.css" rel="stylesheet">
 
     <!-- Plugins css -->
     <link href="../assets/css/plugins.css" rel="stylesheet">
@@ -54,32 +57,23 @@
             <div class="main-header side-header sticky nav nav-item">
                 <div class=" main-container container-fluid">
                     <div class="main-header-left">
-                        <!-- <div class="responsive-logo">
+                        <div class="responsive-logo">
                             <a href="index.html" class="header-logo font-bold green-text">
                                 Froggy
                             </a>
-                        </div> -->
+                        </div>
                         <div class=" app-sidebar__toggle" data-bs-toggle="sidebar">
                             <!-- <div class="icon"></div> -->
                             <a class="open-toggle" href="javascript:void(0)"><i
                                     class="header-icon fe fe-align-left"></i></a>
                             <a class="close-toggle" href="javascript:void(0)"><i class="header-icon fe fe-x"></i></a>
                         </div>
-                        <div class="text-wrap">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb breadcrumb-style2 mb-0">
-                                    <li class="breadcrumb-item">
-                                        <a href="javascript:void(0);">Home</a>
-                                    </li>
-                                    <li class="breadcrumb-item green-text">Profile</li>
-                                </ol>
-                            </nav>
-                        </div>
-                        <!-- <div class="logo-horizontal">
+
+                        <div class="logo-horizontal">
                             <a href="index.html" class="header-logo">
                                 Froggy
                             </a>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="main-header-right">
                         <section>
@@ -266,8 +260,7 @@
                                 </a>
                             </li>
                             <li class="slide mb-3">
-                                <a class="side-menu__item has-link" data-bs-toggle="slide"
-                                    href="./pages/promotions.html">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./promotions.html">
                                     <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none">
                                         <g clip-path="url(#clip0_8_63)">
@@ -293,7 +286,7 @@
                                     <span class="side-menu__label">Promotions</span></a>
                             </li>
                             <li class="slide mb-3">
-                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./pages/slots.html">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./slots.html">
                                     <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="26"
                                         height="24" viewBox="0 0 26 24" fill="none">
                                         <path
@@ -318,7 +311,7 @@
                                 </a>
                             </li>
                             <li class="slide mb-3">
-                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./pages/live.html">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./live.html">
                                     <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="25" viewBox="0 0 24 25" fill="none">
                                         <rect x="7.5749" y="4.93605" width="13" height="15.2508" rx="1.5"
@@ -337,8 +330,7 @@
                                 </a>
                             </li>
                             <li class="slide mb-3">
-                                <a class="side-menu__item has-link" data-bs-toggle="slide"
-                                    href="./pages/favorites.html">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./favorites.html">
                                     <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="24"
                                         height="24" viewBox="0 0 24 24" fill="none">
                                         <path
@@ -349,7 +341,7 @@
                                 </a>
                             </li>
                             <li class="slide mb-3">
-                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="#">
+                                <a class="side-menu__item has-link" data-bs-toggle="slide" href="./earns.html">
                                     <svg class="side-menu__icon" xmlns="http://www.w3.org/2000/svg" width="20"
                                         height="20" viewBox="0 0 20 20" fill="none">
                                         <path
@@ -385,107 +377,234 @@
 
             <!-- container -->
             <div class="main-container container-fluid">
-                <div class="row mt-4 justify-content-between header-profile">
-                    <div class="d-flex align-items-center col-md-6 col-12 flex-wrap">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="118" height="118" viewBox="0 0 128 128"
-                            fill="none">
-                            <g filter="url(#filter0_d_132_2909)">
-                                <rect x="4" width="120" height="120" rx="60" fill="white" fill-opacity="0.05"
-                                    shape-rendering="crispEdges" />
-                                <path
-                                    d="M33.4553 77.6024C20.1241 66.5036 27.5829 58.018 33.4553 53.6431C33.4553 50.5307 35.1994 42.9495 42.1758 37.5234C49.1523 32.0973 55.007 39.7842 57.0623 44.306H70.1871C72.5831 35.9907 81.1685 34.5578 85.1617 34.8808L94.1464 53.6431C107.417 63.6848 101.81 74.167 92.4728 79.3641C83.3238 84.4565 49.35 90.8353 33.4553 77.6024Z"
-                                    fill="#FFE5C1" />
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M26.042 64.407C26.4809 59.7325 30.2098 56.0603 33.4545 53.6431C33.4545 50.5307 35.1986 42.9495 42.175 37.5234C49.1514 32.0973 55.0062 39.7842 57.0615 44.306H70.1863C72.5822 35.9907 81.1676 34.5578 85.1608 34.8808L94.1456 53.6431C98.9402 57.2711 101.271 60.9566 101.851 64.4296C92.7227 69.5259 79.1375 72.7576 63.9668 72.7576C48.7738 72.7576 35.1708 69.5163 26.042 64.407Z"
-                                    fill="#8DCC29" />
-                                <path
-                                    d="M53.4773 46.7724C53.4773 53.6146 48.6324 59.0449 42.7904 59.0449C36.9484 59.0449 32.1035 53.6146 32.1035 46.7724C32.1035 39.9302 36.9484 34.5 42.7904 34.5C48.6324 34.5 53.4773 39.9302 53.4773 46.7724Z"
-                                    fill="#8DCC29" stroke="#417302" />
-                                <ellipse cx="7.92772" cy="9.42518" rx="7.92772" ry="9.42518"
-                                    transform="matrix(-1 0 0 1 50.7988 37.3478)" fill="#F9CA12" />
-                                <rect x="40.2393" y="41.5751" width="5.46132" height="10.5703" rx="2.73066"
-                                    fill="#0F0F00" />
-                                <ellipse cx="42.9582" cy="44.6584" rx="1.8498" ry="1.67363" fill="#FCFCFC" />
-                                <path
-                                    d="M94.5203 46.7724C94.5203 53.6146 89.6754 59.0449 83.8334 59.0449C77.9914 59.0449 73.1465 53.6146 73.1465 46.7724C73.1465 39.9302 77.9914 34.5 83.8334 34.5C89.6754 34.5 94.5203 39.9302 94.5203 46.7724Z"
-                                    fill="#8DCC29" stroke="#417302" />
-                                <ellipse cx="7.92772" cy="9.42518" rx="7.92772" ry="9.42518"
-                                    transform="matrix(-1 0 0 1 91.8457 37.3464)" fill="#F9CA12" />
-                                <rect x="81.2725" y="41.5732" width="5.46132" height="10.5703" rx="2.73066"
-                                    fill="#0F0F00" />
-                                <ellipse cx="84.0109" cy="44.6566" rx="1.8498" ry="1.67363" fill="#FCFCFC" />
-                                <ellipse cx="59.2331" cy="48.7101" rx="1.67363" ry="2.37832"
-                                    transform="rotate(42.2389 59.2331 48.7101)" fill="#417302" />
-                                <ellipse cx="1.67363" cy="2.37832" rx="1.67363" ry="2.37832"
-                                    transform="matrix(-0.740348 0.672223 0.672223 0.740348 66.8994 46.3311)"
-                                    fill="#417302" />
-                                <ellipse cx="1.67363" cy="2.37832" rx="1.67363" ry="2.37832"
-                                    transform="matrix(-0.995071 0.0991603 0.0991603 0.995071 64.416 50.5601)"
-                                    fill="#417302" />
-                            </g>
-                            <defs>
-                                <filter id="filter0_d_132_2909" x="0" y="0" width="128" height="128"
-                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix"
-                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="4" />
-                                    <feGaussianBlur stdDeviation="2" />
-                                    <feComposite in2="hardAlpha" operator="out" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                    <feBlend mode="normal" in2="BackgroundImageFix"
-                                        result="effect1_dropShadow_132_2909" />
-                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_132_2909"
-                                        result="shape" />
-                                </filter>
-                            </defs>
-                        </svg>
-                        <div class="ms-3">
-                            <p class="mb-0 gmail">y...l@gmal.com</p>
-                            <a class="btn green-background dark-text" href="javascript:void(0)">Not Connected</a>
-                        </div>
-                    </div>
-                    <div
-                        class="detail-amount d-flex justify-content-between px-md-5 px-3 py-4 algin-items-center col-md-6 col-12">
-                        <div class="balance d-flex flex-column align-items-center justify-content-center col-4  col-md-4">
-                            <p>My Balance</p>
-                            <h4>0.00</h4>
-                        </div>
-                        <div class="bets d-flex flex-column align-items-center justify-content-center col-4  col-md-4">
-                            <p>On Bets</p>
-                            <h4>0.00</h4>
-                        </div>
-                        <div class="rewards d-flex flex-column align-items-center justify-content-center col-4 col-md-4">
-                            <p>Available Reward</p>
-                            <h4>0.00</h4>
-                        </div>
-                    </div>
+                <div class="mt-4 mb-5">
+                    <h3 class="font-bold">Earns</h3>
                 </div>
-                <div class="wrapper-input-form w-100">
-                    <div class="d-flex align-items-center input-field my-3 mb-4">
-                        <span class="far fa-user"></span>
-                        <input type="text" placeholder="ID" required class="form-control">
-                    </div>
-                    <div class="d-flex align-items-center input-field my-3 mb-4">
-                        <span><i class="fa-regular fa-envelope"></i></span>
-                        <input type="text" placeholder="Email" required class="form-control">
-                    </div>
-                    <div class="d-flex align-items-center input-field my-3 mb-4">
-                        <span><i class="fa-solid fa-phone"></i></span>
-                        <input type="text" placeholder="Phone Number" required class="form-control">
-                    </div>
-                    <div class="d-flex align-items-center input-field my-3 mb-4">
-                        <span class="fas fa-lock"></span>
-                        <input type="text" placeholder="Password" required class="form-control">
-                    </div>
-                    <div class="my-3 d-flex justify-content-end">
-                        <button type="submit" value="Save" class="btn">Save</button>
+                <div class="text-wrap">
+                    <div class="panel tabs-style7 scaleX tabs-slot">
+                        <div class="panel-head mb-2">
+                            <ul class="nav nav-tabs d-sm-flex d-block">
+                                <li class=" nav-item"><a class="nav-link active" data-bs-toggle="tab"
+                                        href="#scaleXtab1">Summary</a></li>
+                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scaleXtab1">
+                                        Bonus</a></li>
+                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#scaleXtab1">
+                                        Refferal</a></li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="scaleXtab1">
+                                    <div class="summary-header d-flex align-items-center px-4 py-3">
+                                        <svg class="frogy" xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+                                            <g filter="url(#filter0_d_194_1589)">
+                                            <rect x="4" width="120" height="120" rx="60" fill="white" fill-opacity="0.05" shape-rendering="crispEdges"/>
+                                            <path d="M33.4553 77.6026C20.1241 66.5038 27.5829 58.0182 33.4553 53.6433C33.4553 50.531 35.1994 42.9497 42.1758 37.5236C49.1523 32.0975 55.007 39.7845 57.0623 44.3062H70.1871C72.5831 35.9909 81.1685 34.5581 85.1617 34.8811L94.1464 53.6433C107.417 63.6851 101.81 74.1673 92.4728 79.3643C83.3238 84.4567 49.35 90.8356 33.4553 77.6026Z" fill="#FFE5C1"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.042 64.4072C26.4809 59.7327 30.2098 56.0606 33.4545 53.6433C33.4545 50.531 35.1986 42.9497 42.175 37.5236C49.1514 32.0975 55.0062 39.7845 57.0615 44.3062H70.1863C72.5822 35.9909 81.1676 34.5581 85.1608 34.8811L94.1456 53.6433C98.9402 57.2713 101.271 60.9568 101.851 64.4298C92.7227 69.5261 79.1375 72.7579 63.9668 72.7579C48.7738 72.7579 35.1708 69.5166 26.042 64.4072Z" fill="#8DCC29"/>
+                                            <path d="M53.4773 46.7724C53.4773 53.6146 48.6324 59.0449 42.7904 59.0449C36.9484 59.0449 32.1035 53.6146 32.1035 46.7724C32.1035 39.9302 36.9484 34.5 42.7904 34.5C48.6324 34.5 53.4773 39.9302 53.4773 46.7724Z" fill="#8DCC29" stroke="#417302"/>
+                                            <ellipse cx="7.92772" cy="9.42518" rx="7.92772" ry="9.42518" transform="matrix(-1 0 0 1 50.7988 37.3477)" fill="#F9CA12"/>
+                                            <rect x="40.2393" y="41.5752" width="5.46132" height="10.5703" rx="2.73066" fill="#0F0F00"/>
+                                            <ellipse cx="42.9582" cy="44.659" rx="1.8498" ry="1.67363" fill="#FCFCFC"/>
+                                            <path d="M94.5203 46.7724C94.5203 53.6146 89.6754 59.0449 83.8334 59.0449C77.9914 59.0449 73.1465 53.6146 73.1465 46.7724C73.1465 39.9302 77.9914 34.5 83.8334 34.5C89.6754 34.5 94.5203 39.9302 94.5203 46.7724Z" fill="#8DCC29" stroke="#417302"/>
+                                            <ellipse cx="7.92772" cy="9.42518" rx="7.92772" ry="9.42518" transform="matrix(-1 0 0 1 91.8457 37.3467)" fill="#F9CA12"/>
+                                            <rect x="81.2725" y="41.5732" width="5.46132" height="10.5703" rx="2.73066" fill="#0F0F00"/>
+                                            <ellipse cx="84.0109" cy="44.657" rx="1.8498" ry="1.67363" fill="#FCFCFC"/>
+                                            <ellipse cx="59.2331" cy="48.7101" rx="1.67363" ry="2.37832" transform="rotate(42.2389 59.2331 48.7101)" fill="#417302"/>
+                                            <ellipse cx="1.67363" cy="2.37832" rx="1.67363" ry="2.37832" transform="matrix(-0.740348 0.672223 0.672223 0.740348 66.8994 46.3311)" fill="#417302"/>
+                                            <ellipse cx="1.67363" cy="2.37832" rx="1.67363" ry="2.37832" transform="matrix(-0.995071 0.0991603 0.0991603 0.995071 64.416 50.5605)" fill="#417302"/>
+                                            </g>
+                                            <defs>
+                                            <filter id="filter0_d_194_1589" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                            <feOffset dy="4"/>
+                                            <feGaussianBlur stdDeviation="2"/>
+                                            <feComposite in2="hardAlpha" operator="out"/>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_194_1589"/>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_194_1589" result="shape"/>
+                                            </filter>
+                                            </defs>
+                                        </svg>
+                                        <p class="mb-0 gmail">y...l@gmal.com</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                            <path d="M52.6515 42.675V21.3255C52.6515 20.553 52.2394 19.8391 51.5703 19.4528L33.081 8.77797C32.412 8.39172 31.5876 8.39172 30.9186 8.77797L12.4294 19.4527C11.7604 19.839 11.3481 20.5528 11.3481 21.3253V42.675C11.3481 43.4475 11.7603 44.1613 12.4294 44.5476L30.9186 55.2223C31.5876 55.6086 32.412 55.6086 33.081 55.2223L51.5703 44.5476C52.2394 44.1615 52.6515 43.4476 52.6515 42.675Z" fill="#CD7F32"/>
+                                            <path d="M48.154 40.4666V23.5338C48.154 23.0015 47.87 22.5095 47.4088 22.2432L32.7447 13.7768C32.2836 13.5106 31.7156 13.5106 31.2545 13.7768L16.5903 22.2432C16.1292 22.5095 15.8452 23.0013 15.8452 23.5338V40.4665C15.8452 40.9988 16.1292 41.4908 16.5903 41.7571L31.2545 50.2235C31.7156 50.4897 32.2836 50.4897 32.7447 50.2235L47.4088 41.7571C47.8698 41.491 48.154 40.999 48.154 40.4666Z" fill="#FEA95C"/>
+                                            <path d="M48.154 40.4666V23.5338C48.154 23.0015 47.87 22.5095 47.4088 22.2432L32.7447 13.7768C32.2836 13.5106 31.7156 13.5106 31.2545 13.7768L16.5903 22.2432C16.1292 22.5095 15.8452 23.0013 15.8452 23.5338V40.4665C15.8452 40.9988 16.1292 41.4908 16.5903 41.7571L31.2545 50.2235C31.7156 50.4897 32.2836 50.4897 32.7447 50.2235L47.4088 41.7571C47.8698 41.491 48.154 40.999 48.154 40.4666Z" fill="#FFE5C1"/>
+                                            <path d="M45.9618 39.3175V24.6826C45.9618 24.2225 45.7163 23.7972 45.3178 23.5671L32.6437 16.2497C32.2452 16.0196 31.7542 16.0196 31.3557 16.2497L18.6816 23.5671C18.2831 23.7972 18.0376 24.2224 18.0376 24.6826V39.3175C18.0376 39.7776 18.2831 40.2029 18.6816 40.4329L31.3557 47.7503C31.7542 47.9804 32.2452 47.9804 32.6437 47.7503L45.3178 40.4329C45.7163 40.2029 45.9618 39.7777 45.9618 39.3175Z" fill="#CD7F32"/>
+                                            <path d="M56.7022 39.1099H7.29744C6.60807 39.1099 6.04932 38.5511 6.04932 37.8617V26.1388C6.04932 25.4494 6.60807 24.8906 7.29744 24.8906H56.7022C57.3916 24.8906 57.9503 25.4495 57.9503 26.1388V37.8617C57.9503 38.5511 57.3916 39.1099 56.7022 39.1099Z" fill="#4EEF76"/>
+                                            <path d="M56.7022 24.8906H54.0938C54.7831 24.8906 55.3419 25.4494 55.3419 26.1388V37.8619C55.3419 38.5513 54.7831 39.11 54.0938 39.11H56.7022C57.3916 39.11 57.9504 38.5513 57.9504 37.8619V26.1388C57.9504 25.4494 57.3916 24.8906 56.7022 24.8906Z" fill="#41E269"/>
+                                            <path d="M11.9279 36V27.144H13.1159L17.1479 33.468V27.144H18.6359V36H17.4479L13.4159 29.676V36H11.9279ZM22.7551 36.06C22.0591 36.06 21.5031 35.964 21.0871 35.772C20.6791 35.58 20.3831 35.248 20.1991 34.776C20.0151 34.296 19.9231 33.632 19.9231 32.784C19.9231 31.92 20.0111 31.252 20.1871 30.78C20.3631 30.3 20.6551 29.964 21.0631 29.772C21.4711 29.58 22.0231 29.484 22.7191 29.484C23.3351 29.484 23.8271 29.548 24.1951 29.676C24.5711 29.796 24.8431 30.016 25.0111 30.336C25.1871 30.648 25.2751 31.092 25.2751 31.668C25.2751 32.076 25.1951 32.404 25.0351 32.652C24.8751 32.892 24.6431 33.064 24.3391 33.168C24.0431 33.272 23.6911 33.324 23.2831 33.324H21.3991C21.4151 33.724 21.4671 34.044 21.5551 34.284C21.6511 34.516 21.8191 34.684 22.0591 34.788C22.3071 34.892 22.6671 34.944 23.1391 34.944H25.0831V35.82C24.7551 35.884 24.4071 35.94 24.0391 35.988C23.6791 36.036 23.2511 36.06 22.7551 36.06ZM21.3871 32.424H23.1391C23.4191 32.424 23.6231 32.372 23.7511 32.268C23.8871 32.156 23.9551 31.956 23.9551 31.668C23.9551 31.388 23.9151 31.168 23.8351 31.008C23.7551 30.848 23.6231 30.736 23.4391 30.672C23.2551 30.6 23.0151 30.564 22.7191 30.564C22.3831 30.564 22.1191 30.616 21.9271 30.72C21.7351 30.824 21.5951 31.012 21.5071 31.284C21.4271 31.548 21.3871 31.928 21.3871 32.424ZM27.6907 36L25.9027 29.568H27.4267L28.6387 34.62L30.0307 29.568H31.2787L32.6707 34.62L33.8107 29.568H35.3347L33.5707 36H31.9267L30.6307 31.644L29.2987 36H27.6907ZM39.7315 36.072C39.4435 36.072 39.1795 36.04 38.9395 35.976C38.7075 35.904 38.4955 35.816 38.3035 35.712C38.1115 35.6 37.9315 35.488 37.7635 35.376L37.5115 36H36.2755V26.844H37.7635V30.06C38.0355 29.908 38.3435 29.776 38.6875 29.664C39.0395 29.544 39.3635 29.484 39.6595 29.484C40.2035 29.484 40.6435 29.596 40.9795 29.82C41.3155 30.044 41.5595 30.404 41.7115 30.9C41.8715 31.388 41.9515 32.036 41.9515 32.844C41.9515 33.548 41.8715 34.14 41.7115 34.62C41.5595 35.1 41.3195 35.464 40.9915 35.712C40.6715 35.952 40.2515 36.072 39.7315 36.072ZM39.1915 34.86C39.4555 34.86 39.6795 34.792 39.8635 34.656C40.0555 34.52 40.2035 34.3 40.3075 33.996C40.4115 33.692 40.4635 33.284 40.4635 32.772C40.4635 32.164 40.4075 31.712 40.2955 31.416C40.1835 31.12 40.0315 30.924 39.8395 30.828C39.6475 30.732 39.4315 30.684 39.1915 30.684C38.9115 30.684 38.6555 30.728 38.4235 30.816C38.1915 30.896 37.9715 30.992 37.7635 31.104V34.464C37.9475 34.56 38.1555 34.652 38.3875 34.74C38.6275 34.82 38.8955 34.86 39.1915 34.86ZM43.4636 28.548C43.3116 28.548 43.2356 28.476 43.2356 28.332V27.24C43.2356 27.08 43.3116 27 43.4636 27H44.5916C44.6636 27 44.7156 27.024 44.7476 27.072C44.7876 27.12 44.8076 27.176 44.8076 27.24V28.332C44.8076 28.476 44.7356 28.548 44.5916 28.548H43.4636ZM43.2716 36V29.568H44.7596V36H43.2716ZM48.9113 36.06C48.2153 36.06 47.6593 35.964 47.2433 35.772C46.8353 35.58 46.5393 35.248 46.3553 34.776C46.1713 34.296 46.0793 33.632 46.0793 32.784C46.0793 31.92 46.1673 31.252 46.3433 30.78C46.5193 30.3 46.8113 29.964 47.2193 29.772C47.6273 29.58 48.1793 29.484 48.8753 29.484C49.4913 29.484 49.9833 29.548 50.3513 29.676C50.7273 29.796 50.9993 30.016 51.1673 30.336C51.3433 30.648 51.4313 31.092 51.4313 31.668C51.4313 32.076 51.3513 32.404 51.1913 32.652C51.0313 32.892 50.7993 33.064 50.4953 33.168C50.1993 33.272 49.8473 33.324 49.4393 33.324H47.5553C47.5713 33.724 47.6233 34.044 47.7113 34.284C47.8073 34.516 47.9753 34.684 48.2153 34.788C48.4633 34.892 48.8233 34.944 49.2953 34.944H51.2393V35.82C50.9113 35.884 50.5633 35.94 50.1953 35.988C49.8353 36.036 49.4073 36.06 48.9113 36.06ZM47.5433 32.424H49.2953C49.5753 32.424 49.7793 32.372 49.9073 32.268C50.0433 32.156 50.1113 31.956 50.1113 31.668C50.1113 31.388 50.0713 31.168 49.9913 31.008C49.9113 30.848 49.7793 30.736 49.5953 30.672C49.4113 30.6 49.1713 30.564 48.8753 30.564C48.5393 30.564 48.2753 30.616 48.0833 30.72C47.8913 30.824 47.7513 31.012 47.6633 31.284C47.5833 31.548 47.5433 31.928 47.5433 32.424Z" fill="#242A32"/>
+                                        </svg>
+                                    </div>
+                                    <div class="summary-body d-flex flex-wrap py-2 align-items-center justify-content-md-between justify-content-center">
+                                        <div class="col-md-3 preview-qrcode">
+                                            <img src="../assets/img/photos/qrcode.png" width="200" />
+                                            <h4 class="mb-0 text-center">Scan Me</h4>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="wrapper-input-form address">
+                                                <div class="d-flex link-profile justify-content-between align-items-center my-2 mb-4">
+                                                    <div class="d-flex align-items-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                                            <path d="M10 13.5C10.4295 14.0741 10.9774 14.5491 11.6066 14.8929C12.2357 15.2367 12.9315 15.4411 13.6467 15.4923C14.3618 15.5435 15.0796 15.4403 15.7513 15.1897C16.4231 14.9392 17.0331 14.547 17.54 14.04L20.54 11.04C21.4508 10.097 21.9548 8.83394 21.9434 7.52296C21.932 6.21198 21.4061 4.95791 20.4791 4.03087C19.5521 3.10383 18.298 2.57799 16.987 2.5666C15.676 2.5552 14.413 3.05918 13.47 3.96997L11.75 5.67997" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            <path d="M14.0002 11.5002C13.5707 10.9261 13.0228 10.451 12.3936 10.1073C11.7645 9.76353 11.0687 9.55911 10.3535 9.50789C9.63841 9.45667 8.92061 9.55986 8.24885 9.81044C7.5771 10.061 6.96709 10.4532 6.4602 10.9602L3.4602 13.9602C2.54941 14.9032 2.04544 16.1662 2.05683 17.4772C2.06822 18.7882 2.59407 20.0423 3.52111 20.9693C4.44815 21.8964 5.70221 22.4222 7.01319 22.4336C8.32418 22.445 9.58719 21.941 10.5302 21.0302L12.2402 19.3202" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                        <p class="mx-2">Link Profile</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="mx-2">https://froggygames.me/?spreadcode=chus</p>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                                            <path d="M20 9.5H11C9.89543 9.5 9 10.3954 9 11.5V20.5C9 21.6046 9.89543 22.5 11 22.5H20C21.1046 22.5 22 21.6046 22 20.5V11.5C22 10.3954 21.1046 9.5 20 9.5Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            <path d="M5 15.5H4C3.46957 15.5 2.96086 15.2893 2.58579 14.9142C2.21071 14.5391 2 14.0304 2 13.5V4.5C2 3.96957 2.21071 3.46086 2.58579 3.08579C2.96086 2.71071 3.46957 2.5 4 2.5H13C13.5304 2.5 14.0391 2.71071 14.4142 3.08579C14.7893 3.46086 15 3.96957 15 4.5V5.5" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex link-profile justify-content-between align-items-center my-2 mb-4">
+                                                    <div class="d-flex align-items-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                                            <path d="M10 13.5C10.4295 14.0741 10.9774 14.5491 11.6066 14.8929C12.2357 15.2367 12.9315 15.4411 13.6467 15.4923C14.3618 15.5435 15.0796 15.4403 15.7513 15.1897C16.4231 14.9392 17.0331 14.547 17.54 14.04L20.54 11.04C21.4508 10.097 21.9548 8.83394 21.9434 7.52296C21.932 6.21198 21.4061 4.95791 20.4791 4.03087C19.5521 3.10383 18.298 2.57799 16.987 2.5666C15.676 2.5552 14.413 3.05918 13.47 3.96997L11.75 5.67997" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            <path d="M14.0002 11.5002C13.5707 10.9261 13.0228 10.451 12.3936 10.1073C11.7645 9.76353 11.0687 9.55911 10.3535 9.50789C9.63841 9.45667 8.92061 9.55986 8.24885 9.81044C7.5771 10.061 6.96709 10.4532 6.4602 10.9602L3.4602 13.9602C2.54941 14.9032 2.04544 16.1662 2.05683 17.4772C2.06822 18.7882 2.59407 20.0423 3.52111 20.9693C4.44815 21.8964 5.70221 22.4222 7.01319 22.4336C8.32418 22.445 9.58719 21.941 10.5302 21.0302L12.2402 19.3202" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                        <p class="mx-2">My Refferal Code</p>
+                                                    </div>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="mx-2">chus</p>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                                            <path d="M20 9.5H11C9.89543 9.5 9 10.3954 9 11.5V20.5C9 21.6046 9.89543 22.5 11 22.5H20C21.1046 22.5 22 21.6046 22 20.5V11.5C22 10.3954 21.1046 9.5 20 9.5Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            <path d="M5 15.5H4C3.46957 15.5 2.96086 15.2893 2.58579 14.9142C2.21071 14.5391 2 14.0304 2 13.5V4.5C2 3.96957 2.21071 3.46086 2.58579 3.08579C2.96086 2.71071 3.46957 2.5 4 2.5H13C13.5304 2.5 14.0391 2.71071 14.4142 3.08579C14.7893 3.46086 15 3.96957 15 4.5V5.5" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="download"> 
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M7 10L12 15L17 10" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M12 15V3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    Download My Qr Code
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="mb-4 mt-5">Overview My Bonus</h5>
+                                    <div class="overview flex-wrap gap-4 d-flex justify-content-between mb-5">
+                                        <div class="bonus col-sm-5 col-12 d-flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                                <circle cx="32" cy="32" r="32" fill="#4EEF76" fill-opacity="0.1"/>
+                                                <path d="M32 17.333V46.6663" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M38.6667 22.667H28.6667C27.429 22.667 26.242 23.1587 25.3668 24.0338C24.4917 24.909 24 26.096 24 27.3337C24 28.5713 24.4917 29.7583 25.3668 30.6335C26.242 31.5087 27.429 32.0003 28.6667 32.0003H35.3333C36.571 32.0003 37.758 32.492 38.6332 33.3672C39.5083 34.2423 40 35.4293 40 36.667C40 37.9047 39.5083 39.0917 38.6332 39.9668C37.758 40.842 36.571 41.3337 35.3333 41.3337H24" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                            <div class="mx-4">
+                                                <h5 class="mb-4">Total Bonus</h5>
+                                                <h5>$ 0.00</h5>
+                                            </div>
+                                        </div>
+                                        <div class="bonus col-sm-5 col-12 d-flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                                <circle cx="32" cy="32" r="32" fill="#4EEF76" fill-opacity="0.1"/>
+                                                <path d="M22.6179 32C20.4121 32 18.6177 30.2054 18.6177 28.0001C18.6177 25.7946 20.4121 24 22.6179 24C24.8235 24 26.6177 25.7944 26.6177 28.0001C26.6177 30.2056 24.8235 32 22.6179 32ZM22.6179 25.1226C21.0253 25.1226 19.73 26.4135 19.73 28.0001C19.73 29.5865 21.0253 30.8774 22.6179 30.8774C24.2101 30.8774 25.5054 29.5865 25.5054 28.0001C25.5054 26.4135 24.2101 25.1226 22.6179 25.1226Z" fill="#4EEF76"/>
+                                                <path d="M23.8233 41.54H17.349C16.6051 41.54 16 40.9387 16 40.1996V38.5113C16 35.0552 18.8395 32.2432 22.3299 32.2432C23.7026 32.2432 25.0093 32.6716 26.1076 33.4818C26.3369 33.6512 26.3858 33.9743 26.2165 34.2038C26.0471 34.4329 25.7243 34.4818 25.4947 34.3127C24.5751 33.6343 23.4808 33.2754 22.3299 33.2754C19.4088 33.2754 17.0323 35.6245 17.0323 38.5113V40.1996C17.0323 40.3694 17.1744 40.5078 17.349 40.5078H23.8236C24.1084 40.5078 24.3397 40.7389 24.3397 41.0239C24.3397 41.3087 24.1084 41.54 23.8233 41.54Z" fill="#4EEF76"/>
+                                                <path d="M46.6508 41.2849H40.1765C39.8917 41.2849 39.6604 41.0538 39.6604 40.7688C39.6604 40.484 39.8917 40.2526 40.1765 40.2526H46.6511C46.8257 40.2526 46.9678 40.1145 46.9678 39.9447V38.2564C46.9678 35.3691 44.5913 33.0205 41.6702 33.0205C40.4502 33.0205 39.2592 33.4407 38.3164 34.2038C38.0951 34.3829 37.7703 34.3489 37.5906 34.1274C37.4114 33.9059 37.4452 33.5808 37.6672 33.4013C38.7929 32.4903 40.2146 31.9883 41.6702 31.9883C45.1604 31.9883 47.9998 34.8 47.9998 38.2564V39.9447C47.9998 40.6836 47.3948 41.2849 46.6508 41.2849Z" fill="#4EEF76"/>
+                                                <path d="M41.9577 31.8809C39.7522 31.8809 37.958 30.0865 37.958 27.881C37.958 25.6755 39.7522 23.8809 41.9577 23.8809C44.1636 23.8809 45.958 25.6752 45.958 27.881C45.958 30.0868 44.1633 31.8809 41.9577 31.8809ZM41.9577 25.0035C40.3656 25.0035 39.0703 26.2944 39.0703 27.881C39.0703 29.4676 40.3656 30.7582 41.9577 30.7582C43.5504 30.7582 44.8457 29.4676 44.8457 27.881C44.8457 26.2944 43.5501 25.0035 41.9577 25.0035Z" fill="#4EEF76"/>
+                                                <path d="M38.4468 45H25.5532C24.6967 45 24 44.1687 24 43.1467V40.52C24 35.2706 27.5884 31 32 31C36.4116 31 40 35.2706 40 40.52V43.1467C40 44.1687 39.3033 45 38.4468 45ZM32 32.1422C28.1126 32.1422 24.95 35.9007 24.95 40.5203V43.147C24.95 43.5392 25.2207 43.8584 25.5532 43.8584H38.4465C38.7791 43.8584 39.0498 43.5392 39.0498 43.147V40.5203C39.05 35.9007 35.8874 32.1422 32 32.1422Z" fill="#4EEF76"/>
+                                                <path d="M32.0502 30.6455C29.2935 30.6455 27.0503 28.4026 27.0503 25.6452C27.0503 22.8882 29.2932 20.6455 32.0502 20.6455C34.8074 20.6455 37.0503 22.8884 37.0503 25.6455C37.0503 28.4028 34.8071 30.6455 32.0502 30.6455ZM32.0502 21.7378C29.8899 21.7378 28.1323 23.4908 28.1323 25.6455C28.1323 27.8004 29.8899 29.5535 32.0502 29.5535C34.2107 29.5535 35.9683 27.8004 35.9683 25.6455C35.9683 23.4908 34.2107 21.7378 32.0502 21.7378Z" fill="#4EEF76"/>
+                                                </svg>
+                                            <div class="mx-4">
+                                                <h5 class="mb-4">Total Downline</h5>
+                                                <h5>0</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="mb-4 mt-5">Turnover Bonus</h5>
+                                    <div class="bonus-wrapper">0</div>
+                                </div>
+                                <div class="tab-pane" id="scaleXtab2">
+                                    <div class="row align-items-center justify-content-between">
+                                        <div class="col-12">
+                                            <div class="wrapper-input-form address p-md-5 p-3">
+                                                <p>Deposit Address</p>
+                                                <div class="d-flex align-items-center input-field my-2 mb-4">
+                                                    <span><i class="fa-solid fa-hashtag"></i></span>
+                                                    <input type="text" placeholder="Paste your wallet address here"
+                                                        required
+                                                        class="form-control">
+                                                </div>
+                                                <div
+                                                    class="calculator d-flex align-items-center justify-content-between">
+                                                    <div class="value-froggy">1 Froggy = $ 0.004 USD</div>
+                                                </div>
+                                                <section class="row justify-content-between align-items-center">
+                                                    <div class="col-md-5 col-12">
+                                                        <p>Withdraw Amount</p>
+                                                        <div class="d-flex receive align-items-center input-field my-2 mb-4">
+                                                            <span><i class="fa-solid fa-dollar-sign"></i></span>
+                                                            <input type="number" placeholder="0.004 USD"
+                                                                class="form-control withdraw-amount">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5 col-12">
+                                                        <p>Amount Your Receive</p>
+                                                        <div class="d-flex receive align-items-center input-field input-field-amount my-2 mb-4">
+                                                            <p>FROGY</p>
+                                                            <input type="number" disabled placeholder="0.004 USD"
+                                                                class="form-control receive-amount">
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="d-flex justify-content-end mt-3">
+                                                    <button class="btn" data-bs-target="#confirm-wd" data-bs-toggle="modal">Withdraw</button>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 
+        <div class="modal fade" id="confirm-wd" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-login">
+                    <div class="modal-body modal-login">
+                        <div class="wrapper">
+                            <div class="card-login confirm-wd-modal flex-column d-flex justify-content-center align-items-center">
+                                <svg class="svg-wd" xmlns="http://www.w3.org/2000/svg" width="121" height="120" viewBox="0 0 121 120" fill="none">
+                                    <rect x="23" y="29.7656" width="72.4219" height="8.67188" rx="4.33594" fill="white"/>
+                                    <path d="M32 94.5C32.0089 97.4809 33.197 100.337 35.3049 102.445C37.4127 104.553 40.2691 105.741 43.25 105.75H73.25C76.2309 105.741 79.0873 104.553 81.1951 102.445C83.303 100.337 84.4911 97.4809 84.5 94.5V34.5H32V94.5ZM44.3488 65.5987C45.052 64.8957 46.0056 64.5008 47 64.5008C47.9944 64.5008 48.948 64.8957 49.6512 65.5987L54.5 70.4475V53.25C54.5 52.2554 54.8951 51.3016 55.5984 50.5984C56.3016 49.8951 57.2554 49.5 58.25 49.5C59.2446 49.5 60.1984 49.8951 60.9017 50.5984C61.6049 51.3016 62 52.2554 62 53.25V70.4475L66.8487 65.5987C67.556 64.9157 68.5033 64.5377 69.4865 64.5462C70.4697 64.5548 71.4103 64.9492 72.1056 65.6444C72.8008 66.3397 73.1952 67.2803 73.2038 68.2635C73.2123 69.2467 72.8343 70.194 72.1513 70.9013L60.9013 82.1513C60.198 82.8543 59.2444 83.2492 58.25 83.2492C57.2556 83.2492 56.302 82.8543 55.5988 82.1513L44.3488 70.9013C43.6457 70.198 43.2508 69.2444 43.2508 68.25C43.2508 67.2556 43.6457 66.302 44.3488 65.5987Z" fill="#4EEF76"/>
+                                </svg>
+                                <h3>Are You Sure to Withdraw ?</h3>
+                                <p>You withdraw 1 USD which means you will receive 0.004 FROGY tokens  into your wallet address 09x12345678910.</p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn check"  data-bs-toggle="modal">Check Again</button>
+                                    <button class="btn confirm" data-bs-target="#success-wd" data-bs-toggle="modal">Yes, I'm Sure</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="success-wd" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-login">
+                    <div class="modal-body modal-login">
+                        <div class="wrapper">
+                            <div class="card-login confirm-wd-modal flex-column d-flex justify-content-center align-items-center">
+                                <img src="../assets/img/photos/success.png" />
+                                <h3 class="mt-3">Withdraw Success</h3>
+                                <p> Congratulations! Your withdraw request has been successfully processed. The funds will be transferred to your account shortly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="login" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content modal-content-login">
