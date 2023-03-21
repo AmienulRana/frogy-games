@@ -200,6 +200,9 @@ License        :   Licensed under ThemeForest License
     --header-bg: #1e232d;
     --menu--bg: #1e232d;
 }
+.table> :not(:first-child){
+    border-block-start: 0 !important;
+}
 
 /* BOOTSTRAP */
 .accordion>.accordion-item {
@@ -319,7 +322,9 @@ License        :   Licensed under ThemeForest License
     text-shadow: none;
     opacity: 0.5;
 }
-
+.red-text{
+    color:#FF3535;
+}
 .alert strong {
     font-weight: 600;
 }
@@ -9414,9 +9419,9 @@ tr {
     }
 }
 
-.table> :not(:first-child) {
+/* .table> :not(:first-child) {
     border-block-start: 1px solid var(--border) !important;
-}
+} */
 
 .table-striped>tbody>tr:nth-of-type(odd)>* {
     --bs-table-accent-bg: rgb($white) !important;

@@ -24,8 +24,11 @@
 }
 
 /* for all input search */
-.main-header-center > .input-search-game {
+.input-search-game {
   width: 450px !important;
+}
+.carousel-item img {
+  height: 100%;
 }
 
 /* utilities */
@@ -72,4 +75,29 @@
 .button-game .btn-free {
   color: #4eef76;
   background: #131a24;
+}
+
+.wrapper-saldo {
+  border: 1px solid #4eef76;
+}
+.preview-saldo {
+  background: black;
+  padding: 8px 10px;
+}
+
+.preview-saldo p {
+  color: #4eef76;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.link-deposit {
+  font-size: 14px;
+  font-weight: bold;
+  background: #4eef76;
+  padding: 8px 10px;
+}
+.link-deposit a {
+  color: black;
 }

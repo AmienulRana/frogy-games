@@ -1,0 +1,97 @@
+.detail-amount {
+  margin: 40px 0 !important;
+  background: #1f262f;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+.detail-amount .balance p {
+  font-size: 18px;
+}
+.detail-amount .balance h4 {
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.detail-amount .btn {
+  background: black;
+  font-weight: bold;
+}
+.detail-amount .btn svg {
+  margin-right: 6px;
+  width: 16px !important;
+}
+.preview-qrcode img {
+  display: block;
+  margin: 10px auto 15px;
+}
+.wrapper-input-form {
+  margin-top: 0px !important;
+  background: none !important;
+}
+.wrapper-input-form input {
+  background: transparent !important;
+  border-color: #4eef76;
+}
+
+.wrapper-input-form .calculator .value-froggy {
+  background: #4eef76;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+}
+.wrapper-input-form .calculator {
+  margin-bottom: 15px !important;
+}
+.wrapper-input-form .calculator p {
+  color: #4eef76;
+}
+.wrapper-input-form.address p {
+  font-size: 16px;
+  margin-bottom: 0px !important;
+}
+.wrapper-input-form .receive {
+  background: black;
+  color: white;
+}
+
+.wrapper-input-form .form-control.withdraw-amount {
+  background: #131a24 !important;
+}
+
+.wrapper-input-form .form-control.receive-amount {
+  padding: 10px 15px !important;
+}
+
+.input-field-amount {
+  position: relative;
+}
+.input-field-amount p {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 14px !important;
+}
+
+.wrapper-input-form button {
+  width: 160px;
+  font-weight: bold;
+  box-shadow: 0px 6px 10px rgba(78, 239, 118, 0.3),
+    0px -6px 10px rgb(78 239 118 / 30%);
+}
+.card-login {
+  height: 320px;
+  text-align: center;
+}
+.confirm-wd-modal .check {
+  border: 1px solid #4eef76;
+  color: #4eef76;
+  margin-right: 20px;
+}
+
+.confirm-wd-modal .confirm {
+  background: #4eef76;
+  color: #000000;
+}

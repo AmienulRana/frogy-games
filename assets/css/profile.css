@@ -1,0 +1,57 @@
+.header-profile .gmail {
+  width: max-content;
+  padding: 5px 15px;
+  background: #1f262f;
+  border-radius: 50px;
+  margin-bottom: 15px !important;
+  font-weight: 600;
+}
+
+.header-profile .gmail ~ .btn {
+  font-weight: 600;
+}
+.detail-amount {
+  background: #1f262f;
+  border-radius: 15px;
+}
+.detail-amount .bets {
+  border: 2px solid #4eef76;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-radius: 2px;
+}
+.detail-amount p {
+  margin-bottom: 5px;
+}
+.detail-amount h4 {
+  margin-bottom: 0px;
+}
+
+.wrapper-input-form {
+  width: 100% !important;
+  background: #1f262f;
+  padding: 20px 25px;
+  margin-top: 40px;
+}
+
+.wrapper-input-form .input-field {
+  position: relative;
+}
+
+.wrapper-input-form .input-field span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #44ef76;
+  font-size: 18px;
+}
+.wrapper-input-form input {
+  background: #131a24;
+  padding: 10px 40px !important;
+}
+
+.wrapper-input-form .btn {
+  background: #4eef76 !important;
+  color: #131a24;
+}
