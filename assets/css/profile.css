@@ -55,3 +55,24 @@
   background: #4eef76 !important;
   color: #131a24;
 }
+
+.icon-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon-right p {
+  margin-bottom: 0;
+  margin-left: 10px;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icon-right.email p {
+  color: #f9ca12;
+}

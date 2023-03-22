@@ -469,14 +469,28 @@
                     <div class="d-flex align-items-center input-field my-3 mb-4">
                         <span><i class="fa-regular fa-envelope"></i></span>
                         <input type="text" placeholder="Email" required class="form-control">
+                        <div class="icon-right email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M10.2898 3.86001L1.81978 18C1.64514 18.3024 1.55274 18.6453 1.55177 18.9945C1.55079 19.3437 1.64127 19.6871 1.8142 19.9905C1.98714 20.2939 2.2365 20.5468 2.53748 20.7239C2.83847 20.901 3.18058 20.9962 3.52978 21H20.4698C20.819 20.9962 21.1611 20.901 21.4621 20.7239C21.7631 20.5468 22.0124 20.2939 22.1854 19.9905C22.3583 19.6871 22.4488 19.3437 22.4478 18.9945C22.4468 18.6453 22.3544 18.3024 22.1798 18L13.7098 3.86001C13.5315 3.56611 13.2805 3.32313 12.981 3.15449C12.6814 2.98585 12.3435 2.89726 11.9998 2.89726C11.656 2.89726 11.3181 2.98585 11.0186 3.15449C10.7191 3.32313 10.468 3.56611 10.2898 3.86001Z" stroke="#F9CA12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 9V13" stroke="#F9CA12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 17H12.01" stroke="#F9CA12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <p data-bs-target="#modal-email" data-bs-toggle="modal">Verification</p>
+                        </div>
                     </div>
                     <div class="d-flex align-items-center input-field my-3 mb-4">
                         <span><i class="fa-solid fa-phone"></i></span>
                         <input type="text" placeholder="Phone Number" required class="form-control">
+                        <div class="icon-right">
+                            <p data-bs-target="#phone-number" data-bs-toggle="modal">Get Phone Number</p>
+                        </div>
                     </div>
                     <div class="d-flex align-items-center input-field my-3 mb-4">
                         <span class="fas fa-lock"></span>
                         <input type="text" placeholder="Password" required class="form-control">
+                        <div class="icon-right">
+                            <p>Change Password</p>
+                        </div>
                     </div>
                     <div class="my-3 d-flex justify-content-end">
                         <button type="submit" value="Save" class="btn">Save</button>
@@ -486,6 +500,72 @@
         </div>
 
 
+        <div class="modal fade" id="modal-email" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-login">
+                    <div class="modal-body modal-login">
+                        <div class="wrapper">
+                            <div class="card-login">
+                                <form action="#" class="d-flex flex-column">
+                                    <div class="text-center text-white">
+                                        <h4 class="title">Verify Email</h4>
+                                        <p class="sub-title">Please press the get otp code button to get the verification code.</p>
+                                    </div>
+                                    <div class="d-flex align-items-center input-field mb-2">
+                                        <span class="p-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                                <path d="M12.5 22C12.5 22 20.5 18 20.5 12V5L12.5 2L4.5 5V12C4.5 18 12.5 22 12.5 22Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="OTP Code" required class="form-control">
+                                    </div>
+                                    <div class="my-3">
+                                        <input type="submit" value="Verify Email" class="btn btn-primary">
+                                    </div>
+                                
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="phone-number" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-login">
+                    <div class="modal-body modal-login">
+                        <div class="wrapper">
+                            <div class="card-login">
+                                <form action="#" class="d-flex flex-column">
+                                    <div class="text-center text-white">
+                                        <h4 class="title">Set Your Phone Number</h4>
+                                        <p class="sub-title">Please enter your phone number correctly and verify 
+                                            afterward to be able to play betting.</p>
+                                    </div>
+                                    <div class="d-flex align-items-center input-field my-3 mb-4">
+                                        <span class="p-2"><i class="fa-solid fa-phone"></i></span>
+                                        <input type="number" placeholder="Your Phone Number" required
+                                            class="form-control">
+                                    </div>
+                                    <div class="d-flex align-items-center input-field mb-2">
+                                        <span class="p-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                                <path d="M12.5 22C12.5 22 20.5 18 20.5 12V5L12.5 2L4.5 5V12C4.5 18 12.5 22 12.5 22Z" stroke="#4EEF76" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="OTP Code" required class="form-control">
+                                    </div>
+                                    <div class="my-3">
+                                        <input type="submit" value="Set Phone Number" class="btn btn-primary">
+                                    </div>
+                                
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="login" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content modal-content-login">
